@@ -1,0 +1,101 @@
+id_audio,texto_transcrito,tempo_segundos
+1,Crie uma variável chamada prateleiras com o valor 6,9.5795
+2,Defina uma variável chamada idade mínima com o valor 16,9.0966
+3,Guarde em uma variável chamada Passageiros de Voo o valor 180,9.1907
+4,Guarde em uma variável chamada páginas livro o valor 320,9.2372
+5,Crie uma variável chamada vagas que armazena o valor 25,9.1329
+6,Defina uma variável chamada graus,8.9119
+7,Crie uma variável chamada idade cachorro,9.0072
+8,Defina uma variável chamada mesas com valor 28,10.2847
+9,Guarde o valor 45 na variável casas,11.1501
+10,Crie uma variável chamada dias férias com valor 15,10.4393
+11,Crie uma variável chamada altura para armazenar o valor 1.75,9.9052
+12,Defina uma variável chamada preço pizza com o valor 39.90,10.8176
+13,Crie uma variável chamada saldo com o valor 1532.67,11.0445
+14,Crie uma variável chamada aluno com o nome Carla,9.1166
+15,Defina uma variável chamada cidade com a string belém,10.282
+16,Defina uma variável chamada cor com valor azul,10.6918
+17,Crie uma variável letra que armazene A,13.1237
+18,Defina uma variável chamada símbolo que armazena arroba,10.9614
+19,Crie uma variável chamada sigla que armazena o valor sp,9.7103
+20,Guarde em uma variável chamado jogo o nome xadrez,12.136
+21,Crie uma variável chamada lâmpada ligada com o valor verdadeiro,9.3698
+22,Defina uma variável chamada usuário ativo com valor falso,11.9315
+23,Guarde o valor falso em uma variável chamada porta aberta,13.0552
+24,Crie uma variável chamada compra paga com o valor verdadeiro,12.523
+25,Defina uma variável chamada aprovado com o valor verdadeiro,12.1884
+26,Some o valor 20 e 25 e armazém na variável idade,11.3056
+27,Armasen na variável total a soma de 12.5 mais 8.9,11.9516
+28,subtraia 32 de 28 e armazenhe o resultado na variável temperatura,11.778
+29,Guarde a diferença de 2 e 5 na variável diferença,11.2184
+30,Multiplique a quantidade 8 de horas por 20 dias e armazenhe o resultado em carga horária,12.2823
+31,Armazena o resultado da multiplicação de 7 e 6 na variável resultado,12.9625
+32,Armazene na variável média a média entre 7.5 e 8,9.4015
+33,Calcule o quadrado de 5 e armazene na variável quadrado,11.2103
+34,Armazene o cubo de 3 na variável cubo,11.6039
+35,Some os números 10 20 30 e armazém na variável total,12.202
+36,Crie uma condição que verifique se a variável x é maior que 20 e incremente a variável contador em 1,12.1304
+37,Crie uma condição que verifique se a variável idade é menor que 18 e atribua o texto menor de idade para a variável status,12.7424
+38,Crie uma condição que verifique se a variável saldo é igual a zero e imprima a mensagem conta zerada,11.9408
+39,Crie uma condição que verifique se a variável temperatura é maior que 30 e defina a variável clima como quente,13.0669
+40,Crie uma condição que verifique se a variável número é par e some 1 a variável pares,12.7538
+41,Crie uma condição que verifique se a string casa é igual a moradia e defina a variável sinônimos como verdadeira,12.0633
+42,Crie uma condição que verifique se a string senha é igual a 1234 e incremente a variável acessos,10.9576
+43,Crie uma condição que verifique se a variável altura é maior ou igual a 1.75 e defina a variável aprovado como verdadeira,12.0181
+44,Crie uma condição que verifique se a variável preço é menor que 100 e aplique um desconto de 10 na variável preço,11.236
+45,Crie uma condição que verifique se a variável nota é maior ou igual a 6 e atribua aprovado a variável situação,10.3429
+46,Crie uma condição que verifique se a variável velocidade é menor que 60 e imprima a velocidade permitida,13.2762
+47,Crie uma condição que verifique se a variabilidade é igual a 30 e some 1 à variedade contador,12.3003
+48,Crie um bloco senão que escreva condição não satisfeita,12.9898
+49,Crie um bloco senão que escreva limite excedido,12.446
+50,Crie um bloco senão que escreva a operação inválida,12.5371
+51,Crie um bloco senão que escreva Login válido,11.4035
+52,Crie um bloco senão que escreva chave incorreta,12.1298
+53,Crie um bloco senão que escreva Saldo insuficiente para saque,12.3384
+54,Crie um bloco senão que escreva usuário não encontrado,12.1717
+55,Crie um bloco senão que escreva Processo não concluído,12.0097
+56,Crie um bloco senão que escreva produto não selecionado,11.8626
+57,Crie um bloco senão que escreva operação cancelada,12.0775
+58,Crie um bloco senão que escreva Erro de Sistema,12.3163
+59,Crie um bloco senão que escreva pagamento pendente,11.6019
+60,Mostrar a saudação Olá Mundo!,10.9331
+61,Exibir a string São Paulo,12.0919
+62,Somar 7 e 3 e exibir o resultado,9.6762
+63,Concatenar as palavras bom e dia e exibir o resultado,11.1186
+64,Exibir o resultado da subtração de 25,12.2618
+65,Juntar as strings Maria e Silva e mostrar o resultado,10.439
+66,Exibir o resultado da multiplicação de 6 e 7,9.9539
+67,Exibir o resultado da divisão de 100 por 4,12.2395
+68,Concatenar as strings Oi e Amigo e exibir o resultado,12.9477
+69,Somar 1000 com 2500 e exibir o resultado,11.766
+70,Exibir a mensagem. Atenção! Sistema fora do ar,12.1172
+71,Concatenar as frases como vai e tudo bem e mostrar o resultado,11.1671
+72,Exibir a soma de 50 e 75,10.8648
+73,Exibir a string até logo,8.8829
+74,Exibir a diferença entre 90 e 33,10.9157
+75,Exibir a multiplicação 12 com 12,12.9997
+76,Concatenar as strings João e Souza e exibir o resultado,12.2834
+77,Exibir o resultado da divisão de 144 por 12,11.333
+78,Exibir o resultado da soma de 3.5 e 4.5,11.823
+79,Exibir a concatenação de boa e tarde,12.7418
+80,Exibir resultado da subtração de 10.5 por 2.3,11.6609
+81,Exibir o resultado da multiplicação entre 1.5 e 4.0,12.8177
+82,Exibir o resultado da divisão decimal de 7.5 por 2.5,11.3412
+83,Exibir o aviso erro arquivo não encontrado,11.5467
+84,Exibirá soma de 25 e 5,11.0257
+85,Exibir a concatenação das strings Rua A e número 10,12.7437
+86,Exibir a subtração de 147,10.7864
+87,Exibir o resultado de multiplicação de 15 e 3,11.6887
+88,Exibir a concatenação das strings ciência e da computação,11.6095
+89,Exibir o resultado da divisão de 300 por 3,10.8431
+90,Exibir a soma de 200 e 150,12.1917
+91,Exibir a concatenação de duas mensagens informativas processando e dados,11.2265
+92,Exibir diferença entre 2025 e 1990,10.1099
+93,Exibir a multiplicação entre 20 e 30,13.1304
+94,Exibir a concatenação entre duas strings muito e bom,13.574
+95,Crie uma condição que verifique se a variável temperatura é maior que 40 e declare como verdadeiro o valor da variável alerta calor,16.8793
+96,Crie uma condição que verifique se a variável nota é igual a 10 e atribua parabéns à variável mensagem,14.9326
+97,Crie uma condição que verifique se a variável velocidade é menor que 30 e mude a variável marcha para 2,15.9169
+98,Crie uma condição que verifique se a variável distância é igual a 100 e some 10 a variável pontos,13.6648
+99,Crie uma condição que verifique se a variável saldo é menor que 100 e envia um alerta de saldo baixo,12.0686
+100,Crie uma condição que verifique se a variável número é maior que 50 e divida número por 2,9.4681

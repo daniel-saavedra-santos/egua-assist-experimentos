@@ -1,0 +1,327 @@
+﻿ID,Prompt,Saida_IA,Tempo_Segundos,Tokens_Input_Est,Tokens_Output_Est,Custo_USD,Status
+1,crie uma variável chamada prateleiras com o valor 6,"```egu
+var prateleiras = 6;
+```",1.8807,172,7,0.000020,Sucesso
+2,defina uma variável chamada idade_Minima com o valor 16,var idade_Minima = 16;,1.3863,137,5,0.000016,Sucesso
+3,guarde em uma variável chamada passageiros_de_voo o valor 180,"```egu
+var passageiros_de_voo = 180;
+```",1.3368,183,10,0.000022,Sucesso
+4,guarde em uma variável chamada paginas_livro o valor 320,"```egu
+var paginas_livro = 320;
+```",1.3027,141,8,0.000018,Sucesso
+5,crie uma variável chamada vagas que armazena o valor 25,var vagas = 25;,1.2853,164,3,0.000018,Sucesso
+6,defina uma variável chamada graus,"```egu
+var graus = 360;
+```",1.3968,141,6,0.000017,Sucesso
+7,crie uma variável chamada idadeCachorro,"```egu
+var idadeCachorro = 5;
+```",1.3307,147,8,0.000018,Sucesso
+8,defina uma variável chamada mesas com o valor 28,"```egu
+var mesas = 28;
+```",1.3148,137,6,0.000016,Sucesso
+9,guarde o valor 45 na variável casas,"```egu
+var casas = 45;
+```",1.3059,139,6,0.000017,Sucesso
+10,crie uma variável chamada dias_ferias com o valor 15,"```egu
+var dias_ferias = 15;
+```",1.3253,137,8,0.000017,Sucesso
+11,crie uma variável chamada altura para armazenar o valor 1.75,"```egu
+var altura = 1.75;
+```",1.2768,172,7,0.000020,Sucesso
+12,defina uma variável chamada precoPizza com o valor 39.90,"```egu
+var precoPizza = 39.90;
+```",1.2964,136,8,0.000017,Sucesso
+13,crie uma variável chamada saldo com o valor 1532.67,"```egu
+var saldo = 1532.67;
+```",1.3603,136,7,0.000017,Sucesso
+14,crie uma variável chamada aluno com o nome Carla,"```egu
+var aluno = ""Carla"";
+```",1.3537,161,7,0.000019,Sucesso
+15,defina uma variável chamada cidade com a string Belém,"```egu
+var cidade = ""Belém"";
+```",1.2198,215,8,0.000025,Sucesso
+16,defina uma variável chamada cor com o valor Azul,"```egu
+var cor = ""Azul"";
+```",1.2551,167,7,0.000019,Sucesso
+17,crie uma variável letra que armazene A,"```egu
+var letra = ""A"";
+```",1.2599,138,6,0.000017,Sucesso
+18,defina uma variável chamada simbolo que armazena @,"```egu
+var simbolo = ""@"";
+```",1.4179,144,7,0.000017,Sucesso
+19,crie uma variável chamada sigla que armazena o valor SP,"```egu
+var sigla = ""SP"";
+```",1.2827,186,7,0.000021,Sucesso
+20,guarde em uma variável chamada jogo o nome Xadrez,"```egu
+var jogo = ""Xadrez"";
+```",1.3216,138,7,0.000017,Sucesso
+21,crie uma variável chamada lampadaLigada com o valor verdadeiro,"```egu
+var lampadaLigada = verdadeiro;
+```",1.4239,227,10,0.000027,Sucesso
+22,defina uma variável chamada usuarioAtivo com o valor falso,"```egu
+var usuarioAtivo = falso;
+```",1.2772,233,9,0.000027,Sucesso
+23,guarde o valor falso em uma variável chamada portaAberta,"```egu
+var portaAberta = falso;
+```",1.3295,171,8,0.000021,Sucesso
+24,crie uma variável chamada compraPaga com o valor verdadeiro,"```egu
+var compraPaga = verdadeiro;
+```",1.29,196,9,0.000024,Sucesso
+25,defina uma variável chamada aprovado com o valor verdadeiro,"```egu
+var aprovado = verdadeiro;
+```",1.4476,265,9,0.000030,Sucesso
+26,some o valor 20 e 25 e armazene na variavel idade,"```egu
+var idade = 20 + 25;
+```",1.3494,137,7,0.000017,Sucesso
+27,armazene na variável total a soma de 12.5 mais 8.9,"```egu
+var total = 12.5 + 8.9;
+```",1.7834,158,8,0.000019,Sucesso
+28,subtraia 32 de 28 e armazene o resultado na variável temperatura,"```egu
+var temperatura = 28 - 32;
+```",1.2623,160,9,0.000020,Sucesso
+29,guarde a diferença de 2 e 5 na variável diferença,"```egu
+var diferenca = 2 - 5;
+```",1.2746,133,8,0.000017,Sucesso
+30,multiplique a quantidade 8 de horas por 20 dias e armazene o resultado em Carga Horária,"```egu
+Carga_Horaria = 8 * 20;
+```",1.3322,140,8,0.000017,Sucesso
+31,armazene o resultado da multiplicação de 7 e 6 na variável resultado,"```egu
+var resultado = 7 * 6;
+```",1.4621,165,8,0.000020,Sucesso
+32,armazene na variável media a média entre 7.5 e 8.0,"```egu
+var media = (7.5 + 8.0) / 2;
+```",1.4103,145,9,0.000018,Sucesso
+33,calcule o quadrado de 5 e armazene na variável quadrado,"```egu
+var quadrado = 5 * 5;
+```",1.2728,138,8,0.000017,Sucesso
+34,armazene o cubo de 3 na variável cubo,"```egu
+var cubo = 3 * 3 * 3;
+```",1.0085,155,8,0.000019,Sucesso
+35,some os números 10,"```egu
+ + 10;
+```",1.0225,161,4,0.000018,Sucesso
+36,crie uma condição que verifique se a variável x é maior que vinte e incremente a variável contador em um,"```egu
+se(x>20){
+  contador = contador + 1;
+}
+```",1.3539,211,12,0.000026,Sucesso
+37,crie uma condição que verifique se a variável idade é menor que 18 e atribua o texto menor de idade para a variável status,"```egu
+se(idade<18){
+  status = ""menor de idade"";
+}
+```",1.1057,242,13,0.000030,Sucesso
+38,crie uma condição que verifique se a variável saldo é igual a zero e imprima a mensagem Conta zerada,"```egu
+se(saldo==0){
+  escreva(""Conta zerada"");
+}
+```",1.0376,262,13,0.000032,Sucesso
+39,crie uma condição que verifique se a variável temperatura é maior que 30 e defina a variável clima como quente,"```egu
+se(temperatura>30){
+  clima = ""quente"";
+}
+```",1.4908,237,13,0.000029,Sucesso
+40,crie uma condição que verifique se a variável numero é par e some 1 à variável pares,"```egu
+se(numero%2==0){
+  pares = pares + 1;
+}
+```",1.1894,249,12,0.000030,Sucesso
+41,crie uma condição que verifique se a string casa é igual a moradia e defina a variável sinonimos como verdadeira,"```egu
+se('casa'=='moradia'){
+  sinonimos = verdadeiro;
+}
+```",1.0365,231,15,0.000029,Sucesso
+42,crie uma condição que verifique se a string senha é igual a 1234 e incremente a variável acessos,"```egu
+se('senha'=='1234'){
+  acessos = acessos + 1;
+}
+```",1.0434,247,14,0.000031,Sucesso
+43,crie uma condição que verifique se a variável altura é maior ou igual a 1.75 e defina a variável aprovado como verdadeira,"```egu
+se(altura>=1.75){
+  aprovado = verdadeiro;
+}
+```",1.1853,233,13,0.000029,Sucesso
+44,crie uma condição que verifique se o preço é menor que 100 e aplique um desconto de 10 na variável preco,"```egu
+se(preco<100){
+  preco = preco - 10;
+}
+```",1.224,272,12,0.000032,Sucesso
+45,crie uma condição que verifique se a variável nota é maior ou igual a 6 e atribua Aprovado à variável situacao,"```egu
+se(nota>=6){
+  situacao = ""Aprovado"";
+}
+```",1.2443,194,12,0.000024,Sucesso
+46,crie uma condição que verifique se a variável velocidade é menor que 60 e imprima Velocidade permitida,"```egu
+se(velocidade<60){
+  escreva(""Velocidade permitida"");
+}
+```",1.2628,202,16,0.000027,Sucesso
+47,crie uma condição que verifique se a variável idade é igual a 30 e some 1 à variável contador,"```egu
+se(idade==30){
+  contador = contador + 1;
+}
+```",0.9907,262,13,0.000032,Sucesso
+48,crie um bloco senão que escreva Condição não satisfeita,"senão{
+  escreva(""Condição não satisfeita"");
+}",1.0331,200,11,0.000025,Sucesso
+49,crie um bloco senão que escreva Limite excedido,"senão{
+  escreva(""Limite excedido"");
+}",1.1319,199,9,0.000024,Sucesso
+50,crie um bloco senão que escreva Operação inválida,"senão{
+  escreva(""Operação inválida"");
+}",1.0487,201,10,0.000024,Sucesso
+51,crie um bloco senão que escreva Login inválido,"senão{
+  escreva(""Login inválido"");
+}",0.9869,173,9,0.000021,Sucesso
+52,crie um bloco senão que escreva Chave incorreta,"senão{
+  escreva(""Chave incorreta"");
+}",1.0882,191,9,0.000023,Sucesso
+53,crie um bloco senão que escreva Saldo insuficiente para saque,"senão{
+  escreva(""Saldo insuficiente para saque"");
+}",1.096,199,13,0.000025,Sucesso
+54,crie um bloco senão que escreva Usuário não encontrado,"senão{
+  escreva(""Usuário não encontrado"");
+}",1.2361,191,11,0.000024,Sucesso
+55,crie um bloco senão que escreva Processo não concluído,"senão{
+  escreva(""Processo não concluído"");
+}",1.2133,197,11,0.000024,Sucesso
+56,crie um bloco senão que escreva Produto não selecionado,"senão{
+  escreva(""Produto não selecionado"");
+}",1.0612,376,11,0.000042,Sucesso
+57,crie um bloco senão que escreva Operação cancelada,"senão{
+  escreva(""Operação cancelada"");
+}",1.0827,210,10,0.000025,Sucesso
+58,crie um bloco senão que escreva Erro de sistema,"senão{
+  escreva(""Erro de sistema"");
+}",1.3267,362,9,0.000040,Sucesso
+59,crie um bloco senão que escreva Pagamento pendente,"senão{
+  escreva(""Pagamento pendente"");
+}",0.9729,194,10,0.000024,Sucesso
+60,mostrar a saudação Olá,"escreva(""Olá"");",0.993,122,3,0.000014,Sucesso
+61,exibir a string São Paulo,"```egu
+escreva(""São Paulo"");
+```",1.1532,243,8,0.000028,Sucesso
+62,somar 7 e 3 e exibir o resultado,"```egu
+escreva(7 + 3);
+```",0.952,154,6,0.000018,Sucesso
+63,concatenar as palavras Bom e dia e exibir o resultado,"```egu
+escreva(""Bom"" + ""dia"");
+```",1.0507,139,8,0.000017,Sucesso
+64,exibir o resultado da subtração de 20 e 5,"```egu
+escreva(20 - 5);
+```",1.0532,175,6,0.000020,Sucesso
+65,juntar as strings Maria e Silva e mostrar o resultado,"```egu
+escreva(""Maria"" + ""Silva"");
+```",1.3829,190,9,0.000023,Sucesso
+66,exibir o resultado da multiplicação de 6 e 7,"```egu
+escreva(6 * 7);
+```",0.9961,165,6,0.000019,Sucesso
+67,exibir o resultado da divisão de 100 por 4,"```egu
+escreva(100 / 4);
+```",1.0676,157,7,0.000019,Sucesso
+68,concatenar as strings Oi e amigo e exibir o resultado,"```egu
+escreva(""Oi"" + "" amigo"");
+```",1.2063,137,9,0.000017,Sucesso
+69,somar 1000 com 2500 e exibir o resultado,"```egu
+escreva(1000 + 2500);
+```",0.9546,117,8,0.000015,Sucesso
+70,exibir a mensagem Atenção! Sistema fora do ar,"```egu
+escreva(""Atenção! Sistema fora do ar"");
+```",1.1368,187,12,0.000024,Sucesso
+71,concatenar as frases Como vai? e Tudo bem? e mostrar o resultado,"```egu
+escreva(""Como vai?"" + "" Tudo bem?"");
+```",1.0693,146,11,0.000019,Sucesso
+72,exibir a soma de 50 e 75,"```egu
+escreva(50 + 75);
+```",1.0719,114,7,0.000014,Sucesso
+73,exibir a string Até logo!,"```egu
+escreva(""Até logo!"");
+```",1.0476,136,8,0.000017,Sucesso
+74,exibir a diferença entre 90 e 33,"```egu
+escreva(90 - 33);
+```",1.1283,114,7,0.000014,Sucesso
+75,exibir a multiplicação de 12 com 12,"```egu
+escreva(12 * 12);
+```",0.963,131,7,0.000016,Sucesso
+76,concatenar as strings João e Souza e exibir o resultado,"```egu
+escreva(""João"" + "" Souza"");
+```",0.9954,174,9,0.000021,Sucesso
+77,exibir o resultado da divisão de 144 por 12,"```egu
+escreva(144 / 12);
+```",1.2576,125,7,0.000015,Sucesso
+78,exibir o resultado da soma de 3.5 e 4.5,"```egu
+escreva(3.5 + 4.5);
+```",1.168,167,7,0.000020,Sucesso
+79,exibir a concatenação de Boa e tarde,"escreva(""Boa"" + "" tarde"");",0.9397,131,6,0.000016,Sucesso
+80,exibir resultado da subtração de 10.5 por 2.3,"```egu
+escreva(10.5 - 2.3);
+```",0.9544,171,7,0.000020,Sucesso
+81,exibir o resultado da multiplicação entre 1.5 e 4.0,"```egu
+escreva(1.5 * 4.0);
+```",1.0187,198,7,0.000023,Sucesso
+82,exibir o resultado da divisão decimal de 7.5 por 2.5,"```egu
+escreva(7.5 / 2.5);
+```",1.0269,166,7,0.000020,Sucesso
+83,exibir o aviso Erro: arquivo não encontrado,"escreva(""Erro: arquivo não encontrado"");",1.0701,103,10,0.000014,Sucesso
+84,exibir a soma de 25 e 5,"```egu
+escreva(25 + 5);
+```",1.0314,113,6,0.000014,Sucesso
+85,exibir a concatenação das strings Rua A e Número 10,"```egu
+escreva(""Rua A"" + "" Número 10"");
+```",1.1534,152,10,0.000020,Sucesso
+86,exibir a subtração de 100 e 47,"```egu
+escreva(100 - 47);
+```",0.9797,192,7,0.000022,Sucesso
+87,exibir o resultado de multiplicação de 15 e 3,"```egu
+escreva(15 * 3);
+```",1.0335,165,6,0.000019,Sucesso
+88,exibir a concatenação das strings Ciência e da Computação,"```egu
+escreva(""Ciência"" + "" da Computação"");
+```",0.9473,162,12,0.000021,Sucesso
+89,exibir o resultado da divisão de 300 por 3,"```egu
+escreva(300 / 3);
+```",1.0367,121,7,0.000015,Sucesso
+90,exibir a soma de 200 e 150,"```egu
+escreva(200 + 150);
+```",1.0467,112,7,0.000014,Sucesso
+91,exibir a concatenação de duas mensagens informativas: Processando e Dados,"```egu
+escreva(""Processando"" + "" Dados"");
+```",0.9552,204,11,0.000025,Sucesso
+92,exibir diferença entre 2025 e 1990,"```egu
+escreva(2025 - 1990);
+```",0.995,117,8,0.000015,Sucesso
+93,exibir a multiplicação entre 20 e 30,"```egu
+escreva(20 * 30);
+```",1.0349,128,7,0.000016,Sucesso
+94,exibir a concatenação entre duas strings Muito e Bom,"```egu
+escreva(""Muito"" + ""Bom"");
+```",1.059,139,9,0.000017,Sucesso
+95,crie uma condição que verifique se a variável temperatura é maior que 40 e declare como verdadeiro o valor da variável alerta_calor,"```egu
+se(temperatura>40){
+  alerta_calor = verdadeiro;
+}
+```",1.2471,242,15,0.000030,Sucesso
+96,crie uma condição que verifique se a variável nota é igual a 10 e atribua Parabéns! à variável mensagem,"```egu
+se(nota==10){
+  mensagem = ""Parabéns!"";
+}
+```",1.3096,229,13,0.000028,Sucesso
+97,crie uma condição que verifique se a variável velocidade é menor que 30 e mude a variável marcha para 2,"```egu
+se(velocidade<30){
+  marcha = 2;
+}
+```",1.1398,216,11,0.000026,Sucesso
+98,crie uma condição que verifique se a variável distancia é igual a 100 e some 10 à variável pontos,"```egu
+se(distancia==100){
+  pontos = pontos + 10;
+}
+```",1.3712,264,14,0.000032,Sucesso
+99,crie uma condição que verifique se a variável saldo é menor que 100 e envie um alerta de saldo baixo,"```egu
+se(saldo<100){
+  escreva(""Alerta de saldo baixo"");
+}
+```",1.1847,284,15,0.000035,Sucesso
+100,crie uma condição que verifique se a variável numero é maior que 50 e divida numero por 2,"```egu
+se(numero>50){
+  numero = numero / 2;
+}
+```",1.1192,246,12,0.000030,Sucesso

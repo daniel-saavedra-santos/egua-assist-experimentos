@@ -1,0 +1,101 @@
+id_audio,texto_ref
+1,crie uma variável chamada prateleiras com o valor 6
+2,defina uma variável chamada idade_Minima com o valor 16
+3,guarde em uma variável chamada passageiros_de_voo o valor 180
+4,guarde em uma variável chamada paginas_livro o valor 320
+5,crie uma variável chamada vagas que armazena o valor 25
+6,defina uma variável chamada graus
+7,crie uma variável chamada idadeCachorro
+8,defina uma variável chamada mesas com o valor 28
+9,guarde o valor 45 na variável casas
+10,crie uma variável chamada dias_ferias com o valor 15
+11,crie uma variável chamada altura para armazenar o valor 1.75
+12,defina uma variável chamada precoPizza com o valor 39.90
+13,crie uma variável chamada saldo com o valor 1532.67
+14,crie uma variável chamada aluno com o nome Carla
+15,defina uma variável chamada cidade com a string Belém
+16,defina uma variável chamada cor com o valor Azul
+17,crie uma variável letra que armazene A
+18,defina uma variável chamada simbolo que armazena @
+19,crie uma variável chamada sigla que armazena o valor SP
+20,guarde em uma variável chamada jogo o nome Xadrez
+21,crie uma variável chamada lampadaLigada com o valor verdadeiro
+22,defina uma variável chamada usuarioAtivo com o valor falso
+23,guarde o valor falso em uma variável chamada portaAberta
+24,crie uma variável chamada compraPaga com o valor verdadeiro
+25,defina uma variável chamada aprovado com o valor verdadeiro
+26,some o valor 20 e 25 e armazene na variavel idade
+27,armazene na variável total a soma de 12.5 mais 8.9
+28,subtraia 32 de 28 e armazene o resultado na variável temperatura
+29,guarde a diferença de 2 e 5 na variável diferença
+30,multiplique a quantidade 8 de horas por 20 dias e armazene o resultado em Carga Horária
+31,armazene o resultado da multiplicação de 7 e 6 na variável resultado
+32,armazene na variável media a média entre 7.5 e 8.0
+33,calcule o quadrado de 5 e armazene na variável quadrado
+34,armazene o cubo de 3 na variável cubo
+35,some os números 10 20 e 30 e armazene na variável total
+36,crie uma condição que verifique se a variável x é maior que vinte e incremente a variável contador em um
+37,crie uma condição que verifique se a variável idade é menor que 18 e atribua o texto menor de idade para a variável status
+38,crie uma condição que verifique se a variável saldo é igual a zero e imprima a mensagem Conta zerada
+39,crie uma condição que verifique se a variável temperatura é maior que 30 e defina a variável clima como quente
+40,crie uma condição que verifique se a variável numero é par e some 1 à variável pares
+41,crie uma condição que verifique se a string casa é igual a moradia e defina a variável sinonimos como verdadeira
+42,crie uma condição que verifique se a string senha é igual a 1234 e incremente a variável acessos
+43,crie uma condição que verifique se a variável altura é maior ou igual a 1.75 e defina a variável aprovado como verdadeira
+44,crie uma condição que verifique se o preço é menor que 100 e aplique um desconto de 10 na variável preco
+45,crie uma condição que verifique se a variável nota é maior ou igual a 6 e atribua Aprovado à variável situacao
+46,crie uma condição que verifique se a variável velocidade é menor que 60 e imprima Velocidade permitida
+47,crie uma condição que verifique se a variável idade é igual a 30 e some 1 à variável contador
+48,crie um bloco senão que escreva Condição não satisfeita
+49,crie um bloco senão que escreva Limite excedido
+50,crie um bloco senão que escreva Operação inválida
+51,crie um bloco senão que escreva Login inválido
+52,crie um bloco senão que escreva Chave incorreta
+53,crie um bloco senão que escreva Saldo insuficiente para saque
+54,crie um bloco senão que escreva Usuário não encontrado
+55,crie um bloco senão que escreva Processo não concluído
+56,crie um bloco senão que escreva Produto não selecionado
+57,crie um bloco senão que escreva Operação cancelada
+58,crie um bloco senão que escreva Erro de sistema
+59,crie um bloco senão que escreva Pagamento pendente
+60,mostrar a saudação Olá Mundo!
+61,exibir a string São Paulo
+62,somar 7 e 3 e exibir o resultado
+63,concatenar as palavras Bom e dia e exibir o resultado
+64,exibir o resultado da subtração de 20 e 5
+65,juntar as strings Maria e Silva e mostrar o resultado
+66,exibir o resultado da multiplicação de 6 e 7
+67,exibir o resultado da divisão de 100 por 4
+68,concatenar as strings Oi e amigo e exibir o resultado
+69,somar 1000 com 2500 e exibir o resultado
+70,exibir a mensagem Atenção! Sistema fora do ar
+71,concatenar as frases Como vai? e Tudo bem? e mostrar o resultado
+72,exibir a soma de 50 e 75
+73,exibir a string Até logo!
+74,exibir a diferença entre 90 e 33
+75,exibir a multiplicação de 12 com 12
+76,concatenar as strings João e Souza e exibir o resultado
+77,exibir o resultado da divisão de 144 por 12
+78,exibir o resultado da soma de 3.5 e 4.5
+79,exibir a concatenação de Boa e tarde
+80,exibir resultado da subtração de 10.5 por 2.3
+81,exibir o resultado da multiplicação entre 1.5 e 4.0
+82,exibir o resultado da divisão decimal de 7.5 por 2.5
+83,exibir o aviso Erro: arquivo não encontrado
+84,exibir a soma de 25 e 5
+85,exibir a concatenação das strings Rua A e Número 10
+86,exibir a subtração de 100 e 47
+87,exibir o resultado de multiplicação de 15 e 3
+88,exibir a concatenação das strings Ciência e da Computação
+89,exibir o resultado da divisão de 300 por 3
+90,exibir a soma de 200 e 150
+91,exibir a concatenação de duas mensagens informativas: Processando e Dados
+92,exibir diferença entre 2025 e 1990
+93,exibir a multiplicação entre 20 e 30
+94,exibir a concatenação entre duas strings Muito e Bom
+95,crie uma condição que verifique se a variável temperatura é maior que 40 e declare como verdadeiro o valor da variável alerta_calor
+96,crie uma condição que verifique se a variável nota é igual a 10 e atribua Parabéns! à variável mensagem
+97,crie uma condição que verifique se a variável velocidade é menor que 30 e mude a variável marcha para 2
+98,crie uma condição que verifique se a variável distancia é igual a 100 e some 10 à variável pontos
+99,crie uma condição que verifique se a variável saldo é menor que 100 e envie um alerta de saldo baixo
+100,crie uma condição que verifique se a variável numero é maior que 50 e divida numero por 2

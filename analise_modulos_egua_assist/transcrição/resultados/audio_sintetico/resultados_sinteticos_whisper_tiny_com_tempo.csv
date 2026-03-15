@@ -1,0 +1,101 @@
+id_audio,texto_transcrito,tempo_segundos
+1,Cri uma variável chamada Pratileiras com Valorçais,0.6388
+2,Definitivamente o chamado Aida de Minima com valor 16,0.5064
+3,Guarda em uma variável chamada Passagê-los Vol. 180,0.5411
+4,Guardem uma variável chamada página's livro o valor 320,0.4458
+5,Cri uma variável chamada Vagas que armazeno valor 25,0.5269
+6,Defino uma variável chamada Grouse,0.5049
+7,Cri uma variável chamada idade caixorro,0.4619
+8,Defina uma variável chamada Mesa com valor 28,0.4677
+9,Guarde o valor 45 na variável casas,0.4395
+10,Cri uma variável chamada dias férias com valor 15,0.4489
+11,Cri é uma variável chamada altura para armazenar valor 1.75,0.4923
+12,Defina uma variável chamada presso pizza com o valor 39.90,0.4957
+13,Cria uma variável chamada Saudo com o valor 1532.67,0.4936
+14,Criam uma variável chamada aluno com o nome Carla,0.4889
+15,Defina uma variável chamada cidade com a estringue Belaing,0.5126
+16,Defina uma variável chamada Cor com um valor azul,0.493
+17,Cri uma variável letra que armazenia a,0.5117
+18,Defina uma variável chamada Simbo-lo que armazena a roba,0.5002
+19,Cri uma variável chamada Cigla que é a Amazena Ovalor S.P,0.5603
+20,Guardi em uma variável chamada Jogo o nome Chadres,0.4729
+21,Criam uma variável chamada Lampada ligada com o valor verdadeiro,0.5207
+22,Defina uma variável chamada usuário ativo com um valor falso,0.522
+23,Guarde o valor fausso em uma variável chamada porta aberta,0.5131
+24,Cri uma variável chamada compra paga com um valor verdadeiro,0.4979
+25,Defina uma variável chamada aprovado com o valor verdadeiro,0.5474
+26,Some o valor 25 e armazenina variável e dade,0.5163
+27,Armasene na variável total a soma de 12.5 mais 8.9,0.5496
+28,Subitrai atrinte e dois de vinte e oito e armazenio resultado na variável temperatura,0.5508
+29,Guardia de ferença de 5 e 2 na variável diferença,0.4696
+30,Multiplique a quantidade 8 de horas por 20 dias e armazênio resultado em cargo horária,0.5014
+31,Armasinho resultado da multiplicação de 7 e 6 na variável resultado,0.4752
+32,Armasenha na variável média a média é entre 7.5 e 8.0,0.5149
+33,Calcule o quadrado de 5 e armazenina variável quadrado,0.5159
+34,Armasenho cubo de três navariável cubo,0.4937
+35,Somios números 10 20 e 30 e armazenho na variável total,0.4996
+36,Cree uma condição que verifique se avariável x é maior que 20 e incremente avariável computador em 1,0.5789
+37,Criu uma condição que verifique se avariável idade é menor que 18 e atribua o texto menor de idade para variável status,0.6507
+38,Cri uma condição que verifique se avariável saldo é igual a zero em prima mensagem. Contas heradas,0.6883
+39,Cri uma condição que verifique se avariável tem peratura é maior que 30 e define a variável clima como quente,0.6805
+40,Criam uma condição que verifique se avariável no número é par e só me um avariável paris,0.6362
+41,Criar uma condição que verifique se a string casa é igual a moradia e define a variável sinônimos como verdadeira,0.5682
+42,Cria uma condição que verifique se a estringue senha é igual a 1 2 3 4 incrementa a variável acessos,0.5842
+43,Cria uma condição que verifique se avariável a altura é maior ou igual a 1.75 e define a variável aprovado como verdadeira,0.559
+44,Cria uma condição que verifique se o preço é menor que 100 e aplique um desconto de 10 na variável preço,0.5258
+45,Cria uma condição que verifique se avariável nota é maior ou igual a 6 e atribua aprovado a avariável situação,0.7118
+46,Cri uma condição que verifique se avariável velocidade é menor que 60 e imprima velocidade permitida,0.5351
+47,Cri uma condição que verifique se avariável idade é igual a 30 e só me um a avariável contador,0.6348
+48,Cria um bloco senão que escreva condição não satisfeta,0.5006
+49,Criam bloco sinão que escreva limite esse dido,0.4551
+50,Cria um bloco senão que escreva operação em valida,0.5202
+51,Criam bloco senão que escreva Login Válido,0.4821
+52,Cri um bloco senão que escreva a chave incorreta,0.5598
+53,Cri um bloco senão que escreva saldo em suficiente para sace,0.6019
+54,Criam blocos senão que escreva o usuário não encontrado,0.4938
+55,Cree um bloco se não que escreva processo não concluído,0.5165
+56,Criam blocos se não que escreva produto não selecionado,0.4787
+57,Cri um bloco sinão que escreva operação cancelada,0.4734
+58,Cri um bloco sinão que escreva erro de sistema,0.5841
+59,Cria um bloco senão que escreva pagamento pendente,0.4877
+60,mostrar a saudação ou lá mundo,0.3935
+61,Exibir a extringação Paulo,0.4443
+62,Somar 7 e 3 e esibir o resultado,0.4686
+63,Com catenar as palavras bom e dia e exibir o resultado,0.5214
+64,Exibir o resultado da subtração de 20 e 5,0.5143
+65,Juntar as estringes Maria e Silva e mostrar o resultado,0.4769
+66,Exibir o resultado da multiplicação de 6 e 7,0.4675
+67,Exibir o resultado da divisão de 100 por 4,0.5113
+68,Com catenar as estrenx oi e amigo e exibir o resultado,0.6013
+69,Somar mil com dois mil e quinhentos e exibir o resultado,0.5369
+70,Exibir a mensagem atenção sistema fora do ar,0.544
+71,Com catenar as frases como vai e tudo bem e mostrar o resultado,0.4654
+72,Exibir a soma de 50 e 75,0.4033
+73,Esses bírais stringa até logo,0.4378
+74,Exibira diferença entre 90 e 33,0.4386
+75,Exibir a multiplicação de 12 com 12,0.4166
+76,Com catenar as stringes João e Souza e Esibiro Resultado,0.5054
+77,Exibir o resultado da divisão de 144 por 12,0.5271
+78,Exibir o resultado da soma de 3.5 e 4.5,0.5263
+79,Exibir a concatenação de boa e tarde,0.4358
+80,Exibir o resultado da subtração de 10.5 por 2.3,0.5117
+81,Exibir o resultado da multiplicação entre 1.5 e 4.0,0.502
+82,Exibir o resultado da divisão decimal de 7.5 por 2.5,0.4507
+83,Exibir o aviso erro arquivo não encontrado,0.4957
+84,Exibir a soma de 25 e 5,0.4553
+85,Exibir a concatenação das strings ruá e número 10,0.5068
+86,Exibir a subtração de 100 e 47,0.4388
+87,Exibir o resultado de multiplicação de 15 e 3,0.45
+88,Exibir a concatenação das stringes ciência e da computação,0.5283
+89,Exibir o resultado da divisão de 300 por 3,0.519
+90,Exibir a soma de 250,0.4195
+91,Exibir a concatenação de duas mensagens informativas processando e dados,0.5527
+92,Exibir diferença entre 2025 e 1990,0.425
+93,Exibir a multiplicação entre 20 e 30,0.5441
+94,Exibir a concatenação entre duas estringes muito e bom,0.472
+95,Cri uma condição que verifique se avariável tem peratura é maior que 40 e declara como verdadeiro o valor da variável alerta calor,0.5463
+96,Cri uma condição que verifique se avariável nota é igual a 10 e atribua para a bens a avariável mensagem,0.6033
+97,Cria uma condição que verifique se avariável velocidade é menor que 30 e mude avariável marcha para 2,0.6225
+98,Cri uma condição que verifique se avariável distância é igual a 100 e some 10 avariável pontos,0.6802
+99,Criu uma condição que verifique se avariável saldo é menor que sem e enviam a lerta de saldo baixo,0.7375
+100,Cria uma condição que verifique se avariável número é maior que 50 e divide número por 2,0.5305

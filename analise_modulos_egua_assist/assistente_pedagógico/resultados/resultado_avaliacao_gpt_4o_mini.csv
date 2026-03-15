@@ -1,0 +1,1658 @@
+id,codigo_snippet,output_original,tempo_segundos,tokens_entrada,tokens_saida,custo_usd,explicacao_ia
+1,"var nums = [1,2];\nescreva(nums[5]);...",Erro: [Linha: 2] Index do vetor fora do intervalo.,10.8346,2113,209,0.0004423,"Olá! Parabéns por seu esforço em programar na linguagem 'Égua'! 
+
+A execução do seu código resultou em um erro, e a mensagem de erro foi: ""Erro: [Linha: 2] Index do vetor fora do intervalo."" Isso significa que você tentou acessar um índice que não existe no vetor `nums`.
+
+No seu código, você declarou o vetor `nums` com apenas dois elementos: `[1, 2]`. Os índices válidos para esse vetor são `0` e `1`. Quando você tentou acessar `nums[5]`, isso resultou em um erro, pois o índice `5` está fora do intervalo.
+
+Para corrigir isso, você pode alterar o índice para um valor válido, como `0` ou `1`. Por exemplo:
+
+```javascript
+var nums = [1, 2];
+escreva(nums[1]); // Isso irá funcionar e imprimir '2'
+```
+
+Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar! Continue praticando!"
+2,var n = aleatorio();\nescreva(n);...,0.9721012612079378,4.4606,1897,102,0.0003458,"Parabéns! A execução do seu código foi bem-sucedida e a saída faz sentido. Você declarou uma variável `n` que recebe o valor retornado pela função `aleatorio()`, e em seguida, você a imprimiu com a função `escreva()`. O valor `0.9721012612079378` é um resultado válido para uma função que gera números aleatórios.
+
+Continue assim! Se tiver mais perguntas ou precisar de ajuda com outro código, estou aqui para ajudar!"
+3,"var n = aleatorioEntre(1,10);\nescreva(n);...",9,5.7641,1898,122,0.0003579,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `9`, faz sentido. Você declarou uma variável `n` que recebe um valor aleatório entre 1 e 10 usando a função `aleatorioEntre(1, 10)`, e em seguida, você usou `escreva(n)` para imprimir o valor de `n`. 
+
+A estrutura dos tokens e a AST também estão corretas, refletindo adequadamente a lógica do seu código. Continue assim! Se precisar de mais ajuda ou tiver outras perguntas, estou aqui para ajudar!"
+4,"var lado = 4;\nvar area = lado * lado;\nescreva(""Á...",Área: 16,5.9492,2517,84,0.0004279,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, ""Área: 16"", faz total sentido. Você calculou corretamente a área de um quadrado com lado 4, que é 4 * 4 = 16. 
+
+Continue assim, explorando e aprendendo mais sobre a linguagem 'Égua'! Se precisar de mais ajuda, estou aqui para ajudar."
+5,var x = 1;\nx = x + 1;\nescreva(x);...,2,5.8481,1950,113,0.0003603,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `2`, faz total sentido. 
+
+Você declarou a variável `x` e a inicializou com o valor `1`. Em seguida, você incrementou `x` em `1`, resultando em `2`. Por fim, você usou a função `escreva` para imprimir o valor de `x`, que é exatamente o que você esperava.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+6,10 = var numero;\nescreva(numero);...,[Linha: 1] Erro no 'var': Esperado expressão.,10.7326,1711,500,0.0005566,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+10 = var numero;
+escreva(numero);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'NUMBER', lexeme: '10', literal: 10, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'numero', literal: null, line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'ESCREVA', lexeme: 'escreva', literal: null, line: 2 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 2 },
+  Token { type: 'IDENTIFIER', lexeme: 'numero', literal: null, line: 2 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 2 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 2 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 3 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ null, Escreva { expression: Variable { name: [Token] } } ]
+```
+
+### Output do console:
+```plaintext
+[Linha: 1] Erro no 'var': Esperado expressão.
+```
+
+### Análise:
+O erro ocorreu na linha 1, onde você tentou atribuir um valor a uma variável de forma incorreta. O código `10 = var numero;` não é uma sintaxe válida. A declaração de uma variável deve ser feita da seguinte forma:
+
+```plaintext
+var numero = 10;
+```
+
+### Correção sugerida:
+Altere seu código para:
+
+```plaintext
+var numero = 10;
+escreva(numero);
+```
+
+Dessa forma, você está declarando a variável `numero` e atribuindo a ela o valor `10`, e depois está usando `escreva` para imprimir o valor da variável.
+
+Se você fizer essa alteração, a execução deve ser"
+7,verdadeiro = falso;...,[Linha: 1] Erro no '=': Tarefa de atribuição invál,4.8484,1721,140,0.0003421,"Olá! 
+
+Parece que você encontrou um erro no seu código. O problema ocorreu na linha 1, onde você tentou atribuir o valor `falso` à palavra reservada `verdadeiro`. Em muitas linguagens de programação, incluindo a linguagem 'Égua', não é permitido atribuir um valor a uma constante ou palavra-chave reservada.
+
+Para corrigir isso, você pode usar uma variável para armazenar o valor `falso`. Por exemplo:
+
+```plaintext
+var resultado = falso;
+```
+
+Assim, você poderá usar `resultado` para armazenar o valor `falso` sem problemas. 
+
+Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+8,var contador = 1;\ncontador = contador + 1;\nescre...,2,4.9327,2304,150,0.0004356,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `2`, faz total sentido. 
+
+Vamos analisar rapidamente o que aconteceu:
+
+1. Você declarou a variável `contador` e a inicializou com o valor `1`.
+2. Em seguida, você incrementou `contador` em `1`, resultando em `2`.
+3. Por fim, você usou a função `escreva` para imprimir o valor de `contador`, que agora é `2`.
+
+A estrutura do seu código, os tokens e a AST estão corretos, e a saída está de acordo com o que era esperado. Continue assim! Se precisar de mais ajuda ou tiver mais perguntas, estou aqui para ajudar!"
+9,"se (verdadeiro) {\n    escreva(""Verdadeiro"");...",[Linha: 3] Erro no final: Esperado '}' após o bloc,7.794,1409,332,0.0004105,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+se (verdadeiro) {
+    escreva(""Verdadeiro"");
+}
+```
+
+### Tokens do usuário:
+Os tokens estão corretos e representam bem a estrutura do seu código.
+
+### AST do usuário:
+A AST (Árvore Sintática Abstrata) retornou `[ null ]`, o que indica que não foi possível construir uma árvore válida para o seu código.
+
+### Output do console:
+O erro apresentado foi: `[Linha: 3] Erro no final: Esperado '}' após o bloco.`
+
+### Análise do erro:
+O erro indica que o compilador esperava um fechamento de bloco (`}`) que não foi encontrado. No entanto, ao olhar para o seu código, parece que você não fechou o bloco corretamente. O código que você forneceu está correto, mas a mensagem de erro sugere que pode haver um problema na forma como o código foi interpretado ou que a execução não foi finalizada corretamente.
+
+### Sugestão de correção:
+1. **Verifique se o código está completo**: Certifique-se de que não há partes faltando ou caracteres invisíveis que possam estar causando o erro.
+2. **Teste novamente**: Tente executar o código novamente, garantindo que não haja espaços ou quebras de linha desnecessárias que possam estar interferindo na interpretação.
+
+Se o problema persistir, você pode tentar simplificar o código ou adicionar um `}` extra para ver se isso resolve o erro, embora não deva ser necessário.
+
+Continue praticando! Se precisar de mais ajuda, estou aqui para ajudar!"
+10,"então {\n  escreva(""Certo"");\n} se(x != k) {\n  es...",[Linha: 1] Erro no '{': Esperado ';' após expressã,8.9349,2729,300,0.0005893,"Parece que houve um erro na execução do seu código. Vamos analisar os detalhes.
+
+### Erros Identificados:
+1. **Linha 1**: O erro indica que o compilador esperava um ponto e vírgula (`;`) após a expressão. Isso ocorre porque a palavra-chave `então` não é usada corretamente. Em vez de `então`, você deve usar `se` para iniciar uma condição. O correto seria algo como `se (condição) { ... }`.
+
+2. **Linha 3**: O erro indica que o compilador esperava uma expressão após o fechamento da chave (`}`). Isso é consequência do erro anterior, pois a estrutura de controle não foi iniciada corretamente.
+
+### Sugestão de Correção:
+Aqui está uma versão corrigida do seu código:
+
+```plaintext
+se (condicao) {
+  escreva(""Certo"");
+} senão se (x != k) {
+  escreva(""Errado"");
+}
+
+var x = k = 2;
+```
+
+### Explicação das Correções:
+- **Uso de `se` e `senão`**: Certifique-se de usar `se` para a condição inicial e `senão` para a alternativa. 
+- **Estrutura de Controle**: A estrutura de controle deve ser corretamente formada para evitar erros de sintaxe.
+
+Após fazer essas correções, seu código deve compilar e executar corretamente. Se precisar de mais ajuda, estou aqui para ajudar!"
+11,var a = verdadeiro;\nvar b = falso;\nse(a e b){\n ...,,9.9251,3053,307,0.0006421,"Parece que você executou seu código, mas não obteve nenhuma saída no console. Vamos analisar o que aconteceu.
+
+### Análise do Código
+O seu código é o seguinte:
+
+```plaintext
+var a = verdadeiro;
+var b = falso;
+se(a e b){
+  escreva(""OK"");
+}
+```
+
+### Tokens e AST
+Os tokens e a AST (Árvore de Sintaxe Abstrata) estão corretos e refletem a estrutura do seu código. Você declarou duas variáveis (`a` e `b`) e está tentando usar uma condição `se` para verificar se ambas são verdadeiras.
+
+### Problema
+O problema está na condição do seu `se`. A expressão `a e b` resulta em `verdadeiro e falso`, que é `falso`. Portanto, o bloco dentro do `se` não é executado, e nada é impresso no console.
+
+### Sugestão de Correção
+Se você deseja que a mensagem ""OK"" seja exibida, você pode alterar o valor da variável `b` para `verdadeiro`, assim:
+
+```plaintext
+var a = verdadeiro;
+var b = verdadeiro; // Alterado para verdadeiro
+se(a e b){
+  escreva(""OK"");
+}
+```
+
+Com essa alteração, a condição `a e b` será verdadeira e a mensagem ""OK"" será exibida no console.
+
+### Conclusão
+Tente fazer essa alteração e execute o código novamente. Se precisar de mais ajuda, estou aqui para ajudar!"
+12,var preco = 10$;\nescreva(preco);...,[Linha: 1] Erro no '$': Caractere inesperado.,3.9068,1326,160,0.0002949,"Olá! 
+
+Parece que você encontrou um erro na sua execução. O problema ocorreu na linha 1, onde você usou o caractere '$' após o número 10. A mensagem de erro indica que esse caractere é inesperado e não é reconhecido pela linguagem 'Égua'.
+
+Para corrigir isso, você deve remover o '$' da sua declaração de variável. O código correto ficaria assim:
+
+```plaintext
+var preco = 10;
+escreva(preco);
+```
+
+Com essa alteração, sua variável `preco` será inicializada corretamente com o valor 10, e a função `escreva(preco)` deverá funcionar como esperado, exibindo o valor 10 no console.
+
+Continue praticando e, se precisar de mais ajuda, estou aqui! 😊"
+13,"caso 1:\n  escreva(""erro"");...",[Linha: 1] Erro no 'caso': Esperado expressão.,4.5798,1194,189,0.0002925,"Parece que houve um erro na execução do seu código. O problema ocorreu na linha 1, onde você utilizou a palavra-chave `caso`. O erro indica que era esperado uma expressão após o `caso`, mas não foi fornecida.
+
+Para corrigir isso, você deve garantir que a estrutura do seu código esteja correta. O comando `caso` geralmente deve ser seguido por uma expressão que defina o que deve ser avaliado. Por exemplo, você pode usar uma estrutura de controle como `se` ou `senão` após o `caso`.
+
+Aqui está uma sugestão de correção:
+
+```plaintext
+se (1) {
+  escreva(""erro"");
+}
+```
+
+Dessa forma, você está utilizando uma condição que será avaliada, e o código deve funcionar corretamente. Tente essa alteração e veja se a execução é bem-sucedida! Se precisar de mais ajuda, estou aqui para ajudar."
+14,var x = 5;\nvar y = quadrado(x);\nescreva(y);...,Erro: [Linha: 2] Variável não definida 'quadrado'.,8.7548,1753,213,0.0003907,"Olá! 
+
+Parece que você encontrou um erro na execução do seu código. O erro ocorreu na linha 2, onde a mensagem indica que a variável 'quadrado' não está definida. Isso significa que você está tentando chamar uma função chamada 'quadrado', mas ela não foi declarada ou definida em nenhum lugar do seu código.
+
+Para corrigir isso, você precisa garantir que a função 'quadrado' esteja definida antes de chamá-la. Por exemplo, você poderia definir a função assim:
+
+```egua
+função quadrado(n) {
+  retorne n * n;
+}
+```
+
+Depois de definir a função, seu código ficaria assim:
+
+```egua
+função quadrado(n) {
+  retorne n * n;
+}
+
+var x = 5;
+var y = quadrado(x);
+escreva(y);
+```
+
+Com essa alteração, a função 'quadrado' estará disponível quando você tentar usá-la, e o código deve funcionar corretamente. 
+
+Continue praticando e se precisar de mais ajuda, estou aqui!"
+15,"ola(""mundo"");...",Erro: [Linha: 1] Variável não definida 'ola'.,5.2344,1424,166,0.0003132,"Parece que você encontrou um erro na execução do seu código. O erro ocorreu na linha 1, onde a mensagem diz: ""Variável não definida 'ola'"". Isso indica que a função `ola` não foi definida antes de você tentar chamá-la.
+
+Para corrigir isso, você precisa definir a função `ola` antes de chamá-la. Aqui está um exemplo de como você pode fazer isso:
+
+```plaintext
+função ola(nome) {
+  escreva(""Olá, "" + nome);
+}
+ola(""mundo"");
+```
+
+Com essa definição, a função `ola` será reconhecida quando você a chamar, e a saída esperada será ""Olá, mundo"".
+
+Experimente essa correção e veja se a execução do seu código agora funciona como esperado! Se precisar de mais ajuda, estou aqui!"
+16,var x = 5;\nse(x > nulo){\n  escreva(x);\n}...,Erro: [Linha: 2] Operadores precisam ser números.,5.5544,2267,191,0.0004547,"Parece que houve um erro na execução do seu código. O erro ocorreu na linha 2, onde você está tentando comparar a variável `x` com `nulo` usando o operador `>`. A mensagem de erro ""Operadores precisam ser números"" indica que a comparação não é válida, pois o operador `>` espera que ambos os lados da comparação sejam números.
+
+Para corrigir isso, você pode substituir `nulo` por um número, como `0`, ou qualquer outro valor numérico que faça sentido para a sua lógica. Aqui está uma sugestão de correção:
+
+```plaintext
+var x = 5;
+se(x > 0) {
+  escreva(x);
+}
+```
+
+Com essa alteração, o código deve funcionar corretamente e imprimir o valor de `x`, que é 5, se a condição for verdadeira. Experimente essa correção e veja se resolve o problema! Se precisar de mais ajuda, estou aqui!"
+17,"var cor = ""verde"";\nse (cor != ""vermelho"") {\n    ...",Siga,2.6596,3285,93,0.0005485,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Siga"" faz total sentido, dado que a condição `cor != ""vermelho""` é verdadeira. Você declarou a variável `cor` como ""verde"", que realmente não é igual a ""vermelho"", então a mensagem foi impressa corretamente.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas sobre a linguagem 'Égua', estou aqui para ajudar!"
+18,var senha = 1234;\nse (senha == 1234) {\n    escre...,Acesso permitido,2.3671,3673,70,0.0005930,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Acesso permitido"" faz total sentido, dado que a condição `senha == 1234` é verdadeira. Você fez um ótimo trabalho ao implementar a estrutura condicional corretamente. Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar."
+19,var a = 5;\nse(var a = 3){\n  escreva(a);\n}...,[Linha: 2] Erro no 'var': Esperado expressão.\n[Li,7.6907,2235,331,0.0005338,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var a = 5;
+se(var a = 3){
+  escreva(a);
+}
+```
+
+### Tokens do usuário:
+Os tokens estão bem estruturados, mas há um problema na forma como você está utilizando a declaração `se`.
+
+### AST do usuário:
+A AST mostra que a estrutura do seu código não está correta, especialmente na parte do `se`.
+
+### Saída do console:
+A saída indica que houve um erro na linha 2 e na linha 4:
+- **[Linha: 2] Erro no 'var': Esperado expressão.**
+- **[Linha: 4] Erro no '}': Esperado expressão.**
+
+### Problema:
+O erro ocorre porque você está tentando declarar uma variável (`var a = 3`) dentro da condição do `se`, o que não é permitido. A condição deve ser uma expressão booleana, e não uma declaração de variável.
+
+### Sugestão de correção:
+Você pode modificar o seu código para que a condição do `se` utilize uma expressão que já tenha sido definida. Por exemplo:
+
+```plaintext
+var a = 5;
+var b = 3; // Declare uma nova variável se necessário
+se(a == b) { // Use uma expressão booleana
+  escreva(a);
+}
+```
+
+Dessa forma, você verifica se `a` é igual a `b` e, se for, escreve o valor de `a`.
+
+Tente fazer essa alteração e execute o código novamente. Se precisar de mais ajuda, estou aqui! Boa sorte! 😊"
+20,var meta = 100;\nvar vendas = 120;\nse (vendas >= ...,Meta batida!,3.6418,3825,78,0.0006205,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Meta batida!"" faz total sentido, dado que as vendas (120) são maiores ou iguais à meta (100). Você utilizou corretamente a estrutura condicional para verificar essa condição e imprimir a mensagem apropriada. Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+21,"var x = 5;\nescreva(""Valor: "" + verdadeiro);...",Erro: [Linha: 2] Operadores precisam ser dois núme,7.7467,1578,333,0.0004365,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var x = 5;
+escreva(""Valor: "" + verdadeiro);
+```
+
+### Tokens:
+Os tokens gerados estão corretos e refletem bem a estrutura do seu código.
+
+### AST:
+A árvore sintática também parece estar bem formada, com a declaração da variável e a chamada da função `escreva`.
+
+### Saída do Console:
+Você obteve a seguinte mensagem de erro:
+```
+Erro: [Linha: 2] Operadores precisam ser dois números ou duas strings.
+```
+
+### Análise do Erro:
+O erro ocorreu na linha 2, onde você está tentando concatenar uma string (`""Valor: ""`) com o valor `verdadeiro`. O problema é que `verdadeiro` é um valor booleano e não pode ser concatenado diretamente com uma string. Para resolver isso, você pode converter o valor booleano em uma string usando a função `escreva` ou concatenar a string de forma diferente.
+
+### Sugestão de Correção:
+Você pode alterar a linha 2 para:
+```plaintext
+escreva(""Valor: "" + (verdadeiro ? ""verdadeiro"" : ""falso""));
+```
+ou, se `verdadeiro` for uma variável que você deseja imprimir, certifique-se de que ela é uma string ou converta-a antes da concatenação.
+
+### Conclusão:
+Com essa correção, seu código deve funcionar corretamente e imprimir a saída esperada. Continue praticando, você está indo muito bem! Se precisar de mais ajuda, estou aqui!"
+22,"var nome = ""Ana"";\nescreva(""Oi "" + nome);...",Oi Ana,2.5732,2045,98,0.0003655,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Oi Ana"" faz total sentido. Você declarou a variável `nome` com o valor ""Ana"" e, em seguida, utilizou a função `escreva` para concatenar a string ""Oi "" com o valor da variável `nome`. O resultado está correto e demonstra um bom entendimento de como trabalhar com variáveis e concatenação de strings na linguagem 'Égua'. Continue assim! 🎉"
+23,"se () {\n    escreva(""Erro"");\n}...",[Linha: 1] Erro no ')': Esperado expressão.\n[Linh,12.2997,1255,500,0.0004882,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+se () {
+    escreva(""Erro"");
+}
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'SE', lexeme: 'se', literal: null, line: 1 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 1 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 1 },
+  Token { type: 'LEFT_BRACE', lexeme: '{', literal: null, line: 1 },
+  Token { type: 'ESCREVA', lexeme: 'escreva', literal: null, line: 2 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 2 },
+  Token { type: 'STRING', lexeme: '""Erro""', literal: 'Erro', line: 2 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 2 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 2 },
+  Token { type: 'RIGHT_BRACE', lexeme: '}', literal: null, line: 3 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 4 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ null, Escreva { expression: Literal { value: 'Erro' } }, null ]
+```
+
+### Output do console:
+```plaintext
+[Linha: 1] Erro no ')': Esperado expressão.
+[Linha: 3] Erro no '}': Esperado expressão.
+```
+
+### Análise:
+O seu código apresenta um erro na linha 1, onde você declarou a condição do `se` sem fornecer uma expressão válida. O `se` espera uma condição que deve ser avaliada como verdadeira ou falsa, mas você deixou os parênteses vazios `()`. Isso resulta no erro ""Esperado expressão"".
+
+Além disso, o erro na linha 3, que menciona o `}`, é uma consequência do primeiro erro, pois o bloco não foi iniciado corretamente devido à falta de uma expressão no `se`.
+
+### Correção Sugerida:
+Para corrigir o seu código, você deve fornecer uma condição"
+24,"var temp = 30;\nse (temp > 25) {\n    escreva(""Cal...",Calor,3.4764,3113,104,0.0005293,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Calor"" faz total sentido, dado que a condição `temp > 25` é verdadeira (já que `temp` é 30). 
+
+Você estruturou corretamente a lógica condicional com o uso de `se` e `senão`, e a AST e os tokens confirmam que tudo está em ordem. Continue assim! Se tiver mais dúvidas ou quiser explorar mais sobre a linguagem 'Égua', estou aqui para ajudar!"
+25,"var idade = 15;\nse(idade < 18){\n  escreva(""Menor...",[Linha: 4] Erro no final: Esperado '}' após o bloc,6.58,2145,226,0.0004574,"Olá! Vamos analisar o seu código.
+
+Você escreveu:
+
+```plaintext
+var idade = 15;
+se(idade < 18){
+  escreva(""Menor"");
+}
+```
+
+Os tokens e a AST foram gerados corretamente, mas a execução resultou em um erro:
+
+```
+[Linha: 4] Erro no final: Esperado '}' após o bloco.
+```
+
+Esse erro ocorreu porque o bloco `se` não foi fechado corretamente. Você começou um bloco com `{`, mas não incluiu o fechamento `}` para finalizar o bloco. Isso é necessário para que a estrutura do seu código esteja correta.
+
+### Correção Sugerida:
+Adicione um `}` após o bloco que contém o `escreva`. O código corrigido ficaria assim:
+
+```plaintext
+var idade = 15;
+se(idade < 18){
+  escreva(""Menor"");
+}
+```
+
+Com a adição do `}`, o código deve funcionar corretamente e você verá a saída esperada: `Menor`.
+
+Parabéns por estar praticando e aprendendo! Se precisar de mais ajuda, estou aqui!"
+26,"var idade = 18;\nse(idade >= 18){\n  escreva(""Maio...",Maior de idade,2.8927,3355,90,0.0005573,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Maior de idade"" faz total sentido, dado que a condição `idade >= 18` é verdadeira quando `idade` é igual a 18. Você utilizou corretamente a estrutura condicional e a função `escreva` para exibir a mensagem apropriada.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+27,"var nota = 5;\nse (nota > 6) {\n    escreva(""Aprov...",,7.5746,2942,285,0.0006123,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var nota = 5;
+se (nota > 6) {
+    escreva(""Aprovado"");
+}
+```
+
+### Tokens:
+Os tokens estão corretos e representam bem a estrutura do seu código.
+
+### AST:
+A árvore sintática também está bem formada, refletindo a lógica que você implementou.
+
+### Saída do Console:
+Você não obteve nenhuma saída no console. Isso acontece porque a condição `nota > 6` é falsa (já que `nota` é 5). Portanto, o bloco dentro do `se` não é executado e nada é impresso.
+
+### Problema:
+A condição que você definiu não é satisfeita, então o código não executa a instrução `escreva(""Aprovado"");`.
+
+### Sugestão de Correção:
+Se você deseja que algo seja impresso quando `nota` é 5, você pode alterar a condição para `nota >= 5` ou modificar o valor de `nota` para um número maior que 6. Aqui está uma sugestão:
+
+```plaintext
+var nota = 5;
+se (nota >= 5) {
+    escreva(""Aprovado"");
+}
+```
+
+Com essa alteração, a saída do console será ""Aprovado"".
+
+Continue praticando! Se precisar de mais ajuda, estou aqui! 😊"
+28,var choveu = verdadeiro;\nse (choveu) {\n    escre...,Levar guarda-chuva,2.6444,2593,76,0.0004345,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Levar guarda-chuva"" faz total sentido, dado que a condição `choveu` é verdadeira. Você utilizou corretamente a estrutura condicional `se` para exibir a mensagem apropriada. Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+29,"var idade = inteiro(""20"");\nescreva(idade);...",20,3.2302,2364,100,0.0004146,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, ""20"", faz total sentido. Você declarou a variável `idade` e a inicializou com o valor convertido de string para inteiro usando a função `inteiro(""20"")`. Em seguida, você utilizou `escreva(idade)` para imprimir o valor da variável, que é 20. Ótimo trabalho! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+30,"var x = real(""3.14"");\nescreva(x);...",3.14,3.0674,1591,93,0.0002944,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `3.14`, faz total sentido. Você declarou a variável `x` e a inicializou com o valor retornado pela função `real(""3.14"")`, e em seguida, utilizou `escreva(x)` para imprimir esse valor. Ótimo trabalho! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+31,var x = real(verdadeiro);...,Erro: [Linha: 1] Somente números podem passar para,13.338,1506,491,0.0005205,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var x = real(verdadeiro);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'real', literal: null, line: 1 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 1 },
+  Token { type: 'VERDADEIRO', lexeme: 'verdadeiro', literal: null, line: 1 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 2 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ Var { name: Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 1 },
+  initializer: Call { callee: [Variable], paren: [Token], args: [Array] }} ]
+```
+
+### Saída do console:
+```plaintext
+Erro: [Linha: 1] Somente números podem passar para real.
+```
+
+### Análise:
+O erro ocorreu na linha 1, onde você tentou passar o valor `verdadeiro` para a função `real()`. A função `real()` espera um número como argumento, e `verdadeiro` é um valor booleano, não um número. 
+
+### Sugestão de correção:
+Para corrigir o erro, você deve passar um número para a função `real()`. Por exemplo, você pode usar um número como `1` ou `0`:
+
+```plaintext
+var x = real(1); // ou var x = real(0);
+```
+
+Dessa forma, o código deve funcionar corretamente e não gerar erros. Continue praticando! Se precisar de mais ajuda, estou aqui!"
+32,"var x = inteiro(""abc"");\nescreva(x);...",Erro: [Linha: 1] Somente números podem passar para,9.0118,1800,293,0.0004458,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var x = inteiro(""abc"");
+escreva(x);
+```
+
+### Tokens do usuário:
+Os tokens foram gerados corretamente e refletem a estrutura do seu código.
+
+### AST do usuário:
+A árvore sintática também está bem formada, representando a declaração da variável `x` e a chamada da função `escreva`.
+
+### Output do console:
+O erro retornado foi: 
+```
+Erro: [Linha: 1] Somente números podem passar para inteiro.
+```
+
+### Análise do erro:
+O erro ocorreu na linha 1, onde você está tentando converter a string `""abc""` para um número usando a função `inteiro`. O problema é que a função `inteiro` espera um valor que possa ser convertido em um número (como uma string que represente um número, por exemplo, `""123""`), mas `""abc""` não é um valor válido para essa conversão.
+
+### Sugestão de correção:
+Para corrigir o erro, você deve passar um valor que possa ser convertido em um número. Por exemplo, você pode alterar a linha para:
+
+```plaintext
+var x = inteiro(""123"");
+```
+
+Ou, se você quiser manter a string, pode usar uma lógica que trate a conversão de forma diferente, dependendo do que você deseja fazer.
+
+Parabéns por seu esforço! Se precisar de mais ajuda, estou aqui!"
+33,var vazio = nulo;\nse (vazio == nulo) {\n    escre...,Variável vazia,3.3869,2979,100,0.0005068,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console faz total sentido. Você declarou uma variável chamada `vazio` e a inicializou com `nulo`. Em seguida, você verificou se `vazio` é igual a `nulo` e, como a condição é verdadeira, a mensagem ""Variável vazia"" foi impressa no console. Ótimo trabalho! Se precisar de mais ajuda ou tiver outras perguntas, estou aqui para ajudar!"
+34,var pizzas = 2;\nvar pedacos = 16;\nescreva(pedaco...,8,2.777,2391,103,0.0004204,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é 8, faz sentido. 
+
+Você declarou duas variáveis, `pizzas` com o valor 2 e `pedacos` com o valor 16. Ao dividir `pedacos` por `pizzas`, você obteve 16 / 2, que resulta em 8. 
+
+Continue assim! Se tiver mais perguntas ou precisar de ajuda com outros códigos, estou aqui para ajudar!"
+35,"var a = ""texto"";\nvar b = 2;\nvar c = a / b;...",Erro: [Linha: 3] Operadores precisam ser números.,5.335,2045,175,0.0004118,"Olá! 
+
+Você encontrou um erro na execução do seu código. O problema ocorreu na linha 3, onde você tentou realizar uma operação de divisão entre uma string (`a`, que contém ""texto"") e um número (`b`, que é 2). A mensagem de erro ""Operadores precisam ser números"" indica que a operação não é válida, pois a divisão requer que ambos os operandos sejam números.
+
+Para corrigir isso, você pode alterar a variável `a` para que ela contenha um número em vez de uma string. Por exemplo:
+
+```plaintext
+var a = 10; // ou qualquer número que você desejar
+var b = 2;
+var c = a / b;
+```
+
+Dessa forma, a operação de divisão será válida e você não encontrará mais esse erro. Continue praticando e se precisar de mais ajuda, estou aqui! 😊"
+36,var a = 10;\nvar b = 0;\nvar r = a / b;\nescreva(r...,[Linha: 5] Erro no final: Esperado ';' após o valo,11.1877,2216,381,0.0005610,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var a = 10;
+var b = 0;
+var r = a / b;
+escreva(r)
+```
+
+### Tokens:
+Os tokens estão corretos e representam bem as variáveis e operações que você está tentando realizar.
+
+### AST:
+A árvore sintática também parece estar bem estruturada, com as variáveis e a operação de divisão.
+
+### Saída do console:
+Você recebeu a mensagem de erro: `[Linha: 5] Erro no final: Esperado ';' após o valor.`
+
+### Análise do erro:
+O erro ocorre porque a linha final do seu código não termina com um ponto e vírgula (`;`). Em muitas linguagens de programação, incluindo a linguagem 'Égua', é necessário finalizar as instruções com um ponto e vírgula.
+
+### Correção sugerida:
+Para corrigir o erro, basta adicionar um ponto e vírgula ao final da linha onde você chama a função `escreva(r)`. O código corrigido ficaria assim:
+
+```plaintext
+var a = 10;
+var b = 0;
+var r = a / b;
+escreva(r);
+```
+
+### Observação sobre a divisão por zero:
+Além disso, é importante notar que a operação `a / b` resultará em uma divisão por zero, o que pode causar um erro em tempo de execução. Você pode querer adicionar uma verificação para evitar isso, como:
+
+```plaintext
+if (b != 0) {
+    var r = a / b;
+    escreva(r);
+} else {
+    escreva(""Erro: Divisão por zero."");
+}
+```
+
+Com essas correções, seu código deve funcionar corretamente. Continue praticando e explorando a linguagem 'Égua'! Se precisar de mais ajuda, estou à disposição! 😊"
+37,var i = 0;\nenquanto(i < 2){\n  var j = 0;\n  enqu...,0\n1\n1\n2,7.369,3842,259,0.0007317,"Parabéns! A execução do seu código foi bem-sucedida e a saída faz sentido. 
+
+Vamos analisar a saída do console: 
+```
+0
+1
+1
+2
+```
+Isso ocorre porque você tem um loop externo que itera sobre `i` de 0 a 1 (já que `i < 2`), e para cada valor de `i`, você tem um loop interno que itera sobre `j` de 0 a 1 (também `j < 2`). Assim, a soma `i + j` resulta nos seguintes valores:
+
+- Quando `i = 0` e `j = 0`, a saída é `0 + 0 = 0`.
+- Quando `i = 0` e `j = 1`, a saída é `0 + 1 = 1`.
+- Quando `i = 1` e `j = 0`, a saída é `1 + 0 = 1`.
+- Quando `i = 1` e `j = 1`, a saída é `1 + 1 = 2`.
+
+Portanto, a sequência de saídas está correta. Continue assim! Se tiver mais dúvidas ou precisar de ajuda com outros códigos, estou aqui para ajudar!"
+38,var i = 6;\nenquanto i < 5\n  escreva(i);...,[Linha: 2] Erro no 'i': Esperado '(' após 'enquant,6.5617,2391,265,0.0005176,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var i = 6;
+enquanto i < 5
+  escreva(i);
+```
+
+### Tokens:
+Os tokens parecem estar corretos, mas há um pequeno erro na sintaxe da estrutura de controle `enquanto`.
+
+### AST:
+A AST indica que a variável `i` foi inicializada corretamente, mas a estrutura do loop `enquanto` não está bem formada.
+
+### Saída do Console:
+A mensagem de erro que você recebeu foi: 
+```
+[Linha: 2] Erro no 'i': Esperado '(' após 'enquanto'.
+```
+Isso significa que o interpretador estava esperando um parêntese após a palavra-chave `enquanto`. A sintaxe correta para a estrutura `enquanto` deve incluir parênteses ao redor da condição.
+
+### Correção Sugerida:
+Você deve adicionar parênteses ao redor da condição do loop `enquanto`. O código corrigido ficaria assim:
+
+```plaintext
+var i = 6;
+enquanto (i < 5) {
+  escreva(i);
+}
+```
+
+Com essa correção, o código deve funcionar corretamente. Tente executar novamente e veja se a saída faz sentido! Se precisar de mais ajuda, estou aqui! 😊"
+39,var i = 0\nenquanto i < 3\n  escreva(i)...,[Linha: 2] Erro no 'enquanto': Esperado ';' após a,8.8215,3017,344,0.0006590,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var i = 0
+enquanto i < 3
+  escreva(i)
+```
+
+### Tokens:
+Os tokens parecem estar corretos, mas a formatação do código pode estar causando problemas.
+
+### AST:
+A AST retornou `[ null, null ]`, o que indica que não foi possível construir a árvore sintática corretamente devido a erros no código.
+
+### Saída do Console:
+Você recebeu os seguintes erros:
+1. **[Linha: 2] Erro no 'enquanto': Esperado ';' após a declaração da variável.**
+2. **[Linha: 4] Erro no final: Esperado ';' após o valor.**
+
+### Problemas Identificados:
+1. **Falta de ponto e vírgula (`;`)**: Na linguagem 'Égua', é necessário finalizar as declarações com ponto e vírgula. Portanto, a linha `var i = 0` precisa de um `;` no final.
+2. **Estrutura do loop**: A linha `enquanto i < 3` também deve ser seguida por um `;` para indicar o final da condição.
+
+### Correção Sugerida:
+Você pode corrigir o seu código da seguinte forma:
+```plaintext
+var i = 0;
+enquanto (i < 3) {
+  escreva(i);
+}
+```
+
+### Conclusão:
+Com essas correções, seu código deve funcionar corretamente e imprimir os valores de `i` de 0 a 2. Tente executar novamente e veja se a saída faz sentido. Se precisar de mais ajuda, estou aqui! 😊"
+40,"var x = 2;\nescolha(x){\ncaso 1:\n  escreva(""um"");...",dois,3.5956,3311,82,0.0005458,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""dois"" faz sentido, já que você definiu `x` como 2 e, portanto, o caso correspondente no comando `escolha` foi ativado. 
+
+Se precisar de mais ajuda ou tiver outras perguntas sobre a linguagem 'Égua', sinta-se à vontade para perguntar! Continue assim! 🎉"
+41,var x = 10;\nse(x > 5){\n  var y = 2;\n  escreva(y...,2,3.1853,2197,123,0.0004034,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `2`, faz total sentido. 
+
+Você declarou a variável `x` com o valor `10` e, em seguida, utilizou uma estrutura condicional `se` para verificar se `x` é maior que `5`. Como essa condição é verdadeira, você declarou a variável `y` com o valor `2` e a imprimiu com o comando `escreva(y)`. Tudo está correto e funcionando como esperado!
+
+Continue assim, e se precisar de mais ajuda, estou aqui!"
+42,var a = 1;\na = 2;\nescreva...,[Linha: 4] Erro no final: Esperado '(' antes dos v,3.7546,2103,141,0.0004000,"Olá! Parece que houve um pequeno erro no seu código. A mensagem de erro que você recebeu indica que a função `escreva` está faltando os parênteses necessários para passar um argumento. 
+
+Na linha 3, você escreveu apenas `escreva`, mas deveria ser `escreva(a)` para que a função saiba o que você deseja imprimir. 
+
+Aqui está a correção sugerida:
+
+```plaintext
+var a = 1;
+a = 2;
+escreva(a);
+```
+
+Com essa alteração, o código deve funcionar corretamente e imprimir o valor de `a`, que é 2. 
+
+Continue praticando! Se precisar de mais ajuda, estou aqui!"
+43,"var idade = 15;\nse (idade >= 18) {\n    escreva(""...",Menor de idade,2.7729,3573,88,0.0005887,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Menor de idade"" faz total sentido, dado que a variável `idade` foi definida como 15, que é menor que 18. O seu código está corretamente estruturado para verificar essa condição e imprimir a mensagem apropriada.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas sobre a linguagem 'Égua', estou aqui para ajudar!"
+44,"var idade = 18;\nse idade > 10 {\n    escreva(""Err...",[Linha: 2] Erro no 'idade': Esperado '(' após 'se',10.4641,2476,332,0.0005706,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var idade = 18;
+se idade > 10 {
+    escreva(""Erro de sintaxe"");
+}
+```
+
+### Tokens:
+Os tokens parecem estar corretos, mas há um problema na forma como a condição do `se` foi escrita.
+
+### AST:
+A AST indica que a condição do `se` não foi interpretada corretamente, resultando em um `null` na estrutura. Isso sugere que a sintaxe não está correta.
+
+### Saída do Console:
+Você recebeu os seguintes erros:
+1. **[Linha: 2] Erro no 'idade': Esperado '(' após 'se'.**
+2. **[Linha: 4] Erro no '}': Esperado expressão.**
+
+### Problemas Identificados:
+1. **Falta de parênteses na condição do `se`:** A condição deve ser escrita entre parênteses. O correto seria `se (idade > 10)`.
+2. **Erro na estrutura do bloco:** O erro na linha 4 é consequência da condição não estar corretamente formatada.
+
+### Correção Sugerida:
+Altere seu código para incluir os parênteses na condição do `se`. O código corrigido ficaria assim:
+
+```plaintext
+var idade = 18;
+se (idade > 10) {
+    escreva(""Erro de sintaxe"");
+}
+```
+
+### Conclusão:
+Com essa correção, seu código deve funcionar corretamente e não apresentar mais erros. Parabéns por estar praticando e buscando melhorar suas habilidades! Se precisar de mais ajuda, estou aqui!"
+45,"var x = ""Oi"";\nescrev(x);...",Erro: [Linha: 2] Variável não definida 'escrev'.,13.1586,1523,500,0.0005284,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var x = ""Oi"";
+escrev(x);
+```
+
+### Tokens:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'STRING', lexeme: '""Oi""', literal: 'Oi', line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'escrev', literal: null, line: 2 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 2 },
+  Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 2 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 2 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 2 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 3 } ]
+```
+
+### AST:
+```plaintext
+[ Var { name: Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 1 },
+    initializer: Literal { value: 'Oi' } },
+  Expression { expression: Call { callee: [Variable], paren: [Token], args: [Array] } } ]
+```
+
+### Saída do Console:
+```plaintext
+Erro: [Linha: 2] Variável não definida 'escrev'.
+```
+
+### Análise:
+O erro ocorreu na linha 2, onde você tentou chamar a função `escrev(x)`. O problema é que a função correta é `escreva`, e não `escrev`. Portanto, a variável não foi reconhecida, resultando no erro de ""variável não definida"".
+
+### Correção Sugerida:
+Para corrigir o erro, basta alterar a chamada da função de `escrev(x);` para `escre"
+46,"função media(a, b){\n  retorna((a + b) / 2);\n}\ne...",5,3.3925,2987,84,0.0004984,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `5`, faz total sentido. Você implementou corretamente a função `media`, que calcula a média de dois números, e a chamada `escreva(media(4, 6))` retornou o resultado esperado.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar."
+47,"função soma(a, b){\n  retorna(a + b);\n}\nescreva(...",Erro: [Linha: 2] Operadores precisam ser dois núme,6.2564,2866,266,0.0005895,"Parece que houve um erro na execução do seu código. O erro ocorreu na linha 2, onde você está tentando realizar uma operação de soma usando a função `retorna(a + b);`. A mensagem de erro indica que os operadores precisam ser dois números ou duas strings.
+
+O problema está relacionado ao fato de que a função `soma` espera dois parâmetros, `a` e `b`, mas você não está passando o segundo parâmetro na chamada `soma(5)`. Isso significa que `b` não está definido, o que leva à tentativa de somar um número com um valor indefinido.
+
+Para corrigir isso, você deve passar um segundo argumento para a função `soma`. Por exemplo, você pode alterar a chamada para `escreva(soma(5, 3));`, onde `3` é o segundo número que você deseja somar.
+
+Aqui está a correção sugerida:
+
+```plaintext
+função soma(a, b) {
+  retorna(a + b);
+}
+escreva(soma(5, 3));
+```
+
+Com essa alteração, a função `soma` agora receberá dois números e deverá funcionar corretamente. Experimente essa modificação e veja se a saída do console é a esperada! Se precisar de mais ajuda, estou à disposição!"
+48,função fatorial(n){\n  se(n == 0){\n    retorna(1)...,,7.6925,2870,288,0.0006033,"Parece que você não obteve uma saída do console após executar seu código. Isso pode indicar que houve um problema na execução da função `fatorial`. Vamos analisar o que pode ter acontecido.
+
+### Problema Identificado:
+1. **Falta de chamada da função**: No seu código, você definiu a função `fatorial`, mas não a chamou em nenhum lugar. Para que algo seja impresso no console, você precisa usar a função `escreva` para exibir o resultado da chamada da função.
+
+### Correção Sugerida:
+Para corrigir isso, você deve adicionar uma linha que chama a função `fatorial` e imprime o resultado. Aqui está um exemplo de como você pode fazer isso:
+
+```plaintext
+função fatorial(n) {
+  se(n == 0) {
+    retorna(1);
+  }
+  retorna(n * fatorial(n - 1));
+}
+escreva(fatorial(5)); // Adicione esta linha para chamar a função e imprimir o resultado
+```
+
+### O que fazer agora:
+1. Adicione a linha `escreva(fatorial(5));` após a definição da função.
+2. Execute o código novamente.
+
+Com essa alteração, você deve ver a saída correta no console, que será o fatorial de 5, ou seja, `120`. Boa sorte e continue praticando! Se precisar de mais ajuda, estou aqui!"
+49,"função ola(){\n  escreva(""Olá"");\n}\nola();...",Olá,2.3666,2073,84,0.0003613,"Parabéns! Sua execução foi bem-sucedida e a saída do console está correta: ""Olá"". O código que você escreveu define uma função chamada `ola` que, quando chamada, imprime ""Olá"" na tela. 
+
+Os tokens e a AST também estão bem formados, refletindo corretamente a estrutura do seu código. Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar."
+50,função dobro(x){\n  x = x * 2\n}\nescreva(dobro(4)...,[Linha: 3] Erro no '}': Esperado ';' após expressã,6.2107,1923,275,0.0004534,"Parece que houve um erro na execução do seu código. Vamos analisar o que aconteceu.
+
+### Erros Identificados:
+1. **Linha 3**: O erro indica que há um problema com o fechamento da função. A mensagem ""Esperado ';' após expressão"" sugere que a linha onde você está atribuindo `x = x * 2` não está terminando corretamente. Em muitas linguagens, incluindo a linguagem 'Égua', é necessário finalizar as instruções com um ponto e vírgula (`;`).
+
+2. **Linha 5**: O erro ""Esperado '}' após o bloco"" sugere que a função não foi fechada corretamente, possivelmente devido ao erro anterior.
+
+### Correção Sugerida:
+Para corrigir o seu código, você deve adicionar um ponto e vírgula após a linha onde você realiza a operação de multiplicação. O código corrigido ficaria assim:
+
+```plaintext
+função dobro(x) {
+  x = x * 2;  // Adicione o ponto e vírgula aqui
+}
+escreva(dobro(4));
+```
+
+### Conclusão:
+Após fazer essa correção, seu código deve compilar e executar corretamente, retornando o valor esperado. Continue praticando e não hesite em perguntar se tiver mais dúvidas! Você está indo muito bem!"
+51,"função soma(a, b){\n  retorna(a + b);\n}\nescreva(...",5,3.1736,2896,110,0.0005004,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é 5, faz total sentido. Você definiu uma função chamada `soma` que recebe dois parâmetros, `a` e `b`, e retorna a soma deles. Em seguida, você chamou essa função com os argumentos 2 e 3, resultando corretamente em 5.
+
+Continue assim, seu entendimento da linguagem de programação 'Égua' está ótimo! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+52,"var nome = ""Maria"";\nvar sobrenome = ""Silva"";\nesc...",Maria Silva,4.0629,2256,76,0.0003840,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Maria Silva"" faz total sentido. Você declarou duas variáveis, `nome` e `sobrenome`, e as concatenou corretamente com um espaço entre elas. Ótimo trabalho! Se precisar de mais ajuda ou tiver outras perguntas sobre a linguagem 'Égua', estou aqui para ajudar!"
+53,var sol = verdadeiro;\nvar folga = verdadeiro;\nse...,Vou à praia,4.2099,3069,100,0.0005204,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Vou à praia"" faz total sentido, dado que tanto a variável `sol` quanto a variável `folga` estão definidas como `verdadeiro`. Isso faz com que a condição do `se` seja verdadeira, levando à execução do bloco que contém o comando `escreva`.
+
+Continue assim! Se precisar de mais ajuda ou tiver mais perguntas sobre a linguagem 'Égua', estou aqui para ajudar!"
+54,var cartao = falso;\nvar dinheiro = verdadeiro;\ns...,Compra realizada,2.5716,3624,91,0.0005982,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Compra realizada"" faz total sentido. O seu código verifica se pelo menos uma das variáveis `cartao` ou `dinheiro` é verdadeira, e como `dinheiro` é verdadeiro, a condição do `se` é satisfeita, resultando na mensagem esperada.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+55,var i = 0;\nenquanto(i < 3){\n  escreva(i);\n  i =...,0\n1\n2,2.7755,3334,103,0.0005619,"Parabéns! A execução do seu código foi bem-sucedida e a saída faz total sentido. O seu código está corretamente configurado para inicializar a variável `i` com 0 e, em seguida, usar um loop `enquanto` para imprimir os valores de `i` enquanto ele for menor que 3. A saída `0`, `1`, `2` corresponde exatamente ao que se espera desse loop. Continue assim! Se tiver mais perguntas ou precisar de ajuda, estou aqui para ajudar!"
+56,var n1 = 8;\nvar n2 = 6;\nvar media = (n1 + n2) / ...,7,3.4589,2961,137,0.0005263,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é 7, faz sentido. 
+
+Vamos analisar rapidamente: você declarou duas variáveis, `n1` e `n2`, com os valores 8 e 6, respectivamente. Em seguida, calculou a média dessas duas variáveis, que é (8 + 6) / 2 = 7. Finalmente, você usou a função `escreva` para imprimir o resultado, que é exatamente o que você obteve.
+
+Continue assim, você está indo muito bem! Se tiver mais perguntas ou precisar de ajuda com outro código, estou aqui para ajudar!"
+57,var a = 6;\nvar b = 7;\nvar mult = a * b;\nescreva...,42,4.4824,2542,159,0.0004767,"Parece que houve um erro na execução do seu código. A saída do console foi ""42"", mas, com os valores que você definiu (a = 6 e b = 7), a multiplicação correta deveria resultar em 42. 
+
+Vamos analisar o seu código:
+
+```plaintext
+var a = 6;
+var b = 7;
+var mult = a * b;
+escreva(mult);
+```
+
+Os tokens e a AST também estão corretos, mas a saída não faz sentido, pois a multiplicação de 6 e 7 é 42, e isso está correto.
+
+Portanto, a execução foi bem-sucedida e a saída faz sentido! Parabéns pelo seu trabalho! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+58,var cansado = falso;\nse (!cansado) {\n    escreva...,Vamos correr,2.6405,2970,72,0.0004887,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Vamos correr"" faz total sentido. O código verifica se a variável `cansado` é falsa e, como você a definiu como tal, a mensagem foi impressa corretamente. Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+59,var resultado = (2 + 2) * 5;\nescreva(resultado);...,20,2.7791,2179,117,0.0003971,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é 20, faz total sentido. 
+
+Você declarou a variável `resultado` e a inicializou com a expressão `(2 + 2) * 5`, que resulta em 20. Em seguida, você usou a função `escreva` para imprimir o valor de `resultado`, que é exatamente isso que você obteve no console.
+
+Continue assim, você está indo muito bem! Se tiver mais perguntas ou precisar de ajuda com outros códigos, estou aqui para ajudar!"
+60,var preco = 10;\nvar qtd = 3;\nvar total = preco *...,30,4.1865,2547,178,0.0004888,"Parece que você teve um pequeno erro na lógica do seu código. Vamos analisar:
+
+### Análise do Código
+Você declarou as variáveis `preco`, `qtd` e `total`, e fez a multiplicação corretamente. No entanto, a saída do console foi `30`, enquanto você esperava que fosse `30` (o que está correto). 
+
+### Explicação
+A multiplicação de `preco` (10) por `qtd` (3) resulta em `30`, e a chamada da função `escreva(total)` está correta, pois `total` armazena o resultado da multiplicação.
+
+### Conclusão
+Parabéns! Sua execução foi bem-sucedida e a saída faz sentido. Você fez um ótimo trabalho ao calcular o total. Continue assim! Se precisar de mais ajuda ou tiver dúvidas, estou aqui para ajudar!"
+61,"var a = verdadeiro;\nse (a e ) {\n    escreva(""Err...",[Linha: 2] Erro no ')': Esperado expressão.\n[Linh,7.9132,2090,327,0.0005097,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var a = verdadeiro;
+se (a e ) {
+    escreva(""Erro"");
+}
+```
+
+### Tokens:
+Os tokens parecem estar corretos até a linha 2, mas o problema está na condição do `se`.
+
+### AST:
+A AST mostra que a condição do `se` não está bem formada, pois está faltando uma expressão após o operador `e`.
+
+### Saída do Console:
+Você recebeu os seguintes erros:
+- **[Linha: 2] Erro no ')': Esperado expressão.**
+- **[Linha: 4] Erro no '}': Esperado expressão.**
+
+### Problema:
+O erro ocorre porque a condição do `se` está incompleta. Você escreveu `se (a e )`, mas não forneceu uma segunda expressão após o operador `e`. Isso faz com que o parser não consiga entender a condição.
+
+### Correção Sugerida:
+Para corrigir o erro, você deve adicionar uma expressão válida após o operador `e`. Por exemplo, se você quiser verificar se `a` é verdadeiro e se outra variável `b` também é verdadeira, você poderia fazer assim:
+
+```plaintext
+var a = verdadeiro;
+var b = verdadeiro; // Adicione uma nova variável ou outra condição
+se (a e b) {
+    escreva(""Erro"");
+}
+```
+
+Com essa correção, a condição do `se` estará completa e o código deve funcionar corretamente. 
+
+Continue praticando e não hesite em perguntar se tiver mais dúvidas! Você está indo muito bem! 😊"
+62,var x = 5;\nvar y = x %% 2;...,[Linha: 2] Erro no '%': Esperado expressão.,5.0973,1391,205,0.0003316,"Olá! Vamos analisar o seu código.
+
+Você escreveu:
+```plaintext
+var x = 5;
+var y = x %% 2;
+```
+
+Os tokens e a AST indicam que a primeira linha foi processada corretamente, onde a variável `x` foi definida com o valor `5`. No entanto, na segunda linha, você utilizou `%%`, que não é um operador válido na linguagem 'Égua'. Isso gerou um erro no console:
+
+```
+[Linha: 2] Erro no '%': Esperado expressão.
+```
+
+O erro ocorreu na linha 2, onde o compilador esperava uma expressão válida, mas encontrou o operador `%%`, que não é reconhecido. Para corrigir isso, você deve usar apenas um único `%` para a operação de módulo, assim:
+
+```plaintext
+var y = x % 2;
+```
+
+Com essa alteração, seu código deve funcionar corretamente. Parabéns pelo esforço e continue praticando! Se precisar de mais ajuda, estou aqui!"
+63,var a = verdadeiro;\nvar b = verdadeiro;\nse(a ou ...,ok,2.5856,3056,95,0.0005154,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""ok"" faz total sentido, dado que tanto `a` quanto `b` são verdadeiros. Portanto, a condição do `se` é satisfeita e o programa executa a instrução de `escreva(""ok"");`. 
+
+Você fez um ótimo trabalho! Se tiver mais perguntas ou quiser explorar mais sobre a linguagem 'Égua', sinta-se à vontade para perguntar!"
+64,"var a = verdadeiro;\nse(a && falso){\n  escreva(""e...",[Linha: 2] Erro no '&': Esperado expressão.\n[Linh,7.4076,2137,336,0.0005221,"Olá! Vamos analisar o seu código.
+
+Você escreveu:
+
+```plaintext
+var a = verdadeiro;
+se(a && falso){
+  escreva(""erro"");
+}
+```
+
+### Análise do Erro
+
+O erro ocorreu na linha 2, onde você usou `&&` (operador lógico ""E""). No entanto, no seu código, os tokens correspondentes são `BIT_AND` (que representa o operador bit a bit) e não o operador lógico correto. Isso causou a mensagem de erro: `[Linha: 2] Erro no '&': Esperado expressão.`
+
+Além disso, a linha 4 também apresentou um erro: `[Linha: 4] Erro no '}': Esperado expressão.`, que é uma consequência do erro anterior, pois o bloco `se` não foi interpretado corretamente devido ao problema na condição.
+
+### Correção Sugerida
+
+Para corrigir o seu código, você deve usar o operador lógico correto. O código corrigido ficaria assim:
+
+```plaintext
+var a = verdadeiro;
+se(a && falso){
+  escreva(""erro"");
+}
+```
+
+Certifique-se de que o operador `&&` está sendo interpretado corretamente como um operador lógico. Se a linguagem 'Égua' não suporta `&&`, você pode precisar usar `e` em vez de `&&`, assim:
+
+```plaintext
+var a = verdadeiro;
+se(a e falso){
+  escreva(""erro"");
+}
+```
+
+### Conclusão
+
+Após fazer essa correção, seu código deve funcionar corretamente. Tente executar novamente e veja se a saída faz sentido. Se precisar de mais ajuda, estou aqui para ajudar! Boa sorte! 😊"
+65,var a = 10;\nvar b = 5;\nvar c = a >< b;...,[Linha: 3] Erro no '<': Esperado expressão.,6.8724,1508,265,0.0003852,"Olá! Vamos analisar o seu código.
+
+Você escreveu:
+
+```plaintext
+var a = 10;
+var b = 5;
+var c = a >< b;
+```
+
+Os tokens gerados e a AST mostram que você declarou as variáveis `a` e `b` corretamente, mas na linha onde você tenta atribuir um valor a `c`, você usou o operador `><`, que não é reconhecido pela linguagem 'Égua'.
+
+A saída do console indica:
+
+```
+[Linha: 3] Erro no '<': Esperado expressão.
+```
+
+Isso significa que o interpretador encontrou um problema na linha 3, especificamente com o operador `<`. O operador `><` não é válido e, por isso, o erro ocorreu.
+
+### Sugestão de Correção:
+Se você estava tentando comparar `a` e `b`, você pode usar um operador de comparação válido, como `>` ou `<`. Por exemplo, se você quiser verificar se `a` é maior que `b`, você pode escrever:
+
+```plaintext
+var c = a > b;
+```
+
+Ou, se você queria fazer uma operação diferente, por favor, me avise para que eu possa ajudar com a lógica correta!
+
+Parabéns por seu esforço até aqui! Se precisar de mais ajuda, estou à disposição!"
+66,var x = 10 ++ 10;\nescreva(x);...,[Linha: 1] Erro no '+': Esperado expressão.,7.2814,1545,313,0.0004195,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var x = 10 ++ 10;
+escreva(x);
+```
+
+### Tokens do usuário:
+Os tokens foram gerados corretamente, mas há um problema na expressão `10 ++ 10`.
+
+### AST do usuário:
+A AST indica que a primeira parte do código não foi interpretada corretamente, resultando em um `null` para a primeira parte.
+
+### Output do console:
+Você recebeu a seguinte mensagem de erro:
+```
+[Linha: 1] Erro no '+': Esperado expressão.
+```
+
+### Análise do erro:
+O erro ocorreu na linha 1, especificamente na parte `10 ++ 10`. O operador `++` não é válido nesse contexto, pois o `++` é um operador de incremento que deve ser usado em variáveis, e não entre dois números. O compilador esperava uma expressão válida, mas encontrou um operador que não faz sentido ali.
+
+### Sugestão de correção:
+Para corrigir o erro, você deve substituir `10 ++ 10` por uma expressão válida. Por exemplo, se você deseja somar 10 e 10, você pode usar `10 + 10`. O código corrigido ficaria assim:
+
+```plaintext
+var x = 10 + 10;
+escreva(x);
+```
+
+Com essa alteração, a execução deve ser bem-sucedida e você verá a saída correta no console.
+
+Se precisar de mais ajuda, estou à disposição! Parabéns por continuar praticando!"
+67,"var v = [3,1,2];\nordenar(v);\nescreva(v);...","[ 1, 2, 3 ]",4.0066,2538,105,0.0004437,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console `[ 1, 2, 3 ]` faz sentido, considerando que você chamou a função `ordenar(v)` para ordenar o vetor `v`, que inicialmente continha os valores `[3, 1, 2]`. Após a ordenação, os valores foram corretamente rearranjados em ordem crescente.
+
+Continue assim e sinta-se à vontade para fazer mais perguntas ou explorar novos conceitos na linguagem 'Égua'!"
+68,"var v = [5,3,1];\nordenar(v);\nescreva(v);...","[ 1, 3, 5 ]",2.9797,2538,112,0.0004479,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console faz sentido. Você declarou um vetor `v` com os valores `[5, 3, 1]`, chamou a função `ordenar(v)` e, em seguida, imprimiu o vetor. A saída `[1, 3, 5]` indica que a função `ordenar` funcionou corretamente, ordenando os elementos do vetor em ordem crescente.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+69,ordenar(5);...,Erro: [Linha: 1] Valor Inválido. Objeto inserido n,9.2156,1389,405,0.0004513,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+ordenar(5);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token {type: 'IDENTIFIER',lexeme: 'ordenar',literal: null,line: 1},
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 1 },
+  Token { type: 'NUMBER', lexeme: '5', literal: 5, line: 1 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 2 } ]
+```
+
+### AST do usuário:
+```plaintext
+[Expression {expression: Call { callee: [Variable], paren: [Token], args: [Array] }} ]
+```
+
+### Output do console:
+```plaintext
+Erro: [Linha: 1] Valor Inválido. Objeto inserido não é um vetor.
+```
+
+### Análise:
+O erro que você recebeu indica que a função `ordenar` está esperando um vetor como argumento, mas você forneceu um número (`5`). Isso não é um tipo válido para a função que você está tentando chamar.
+
+### Sugestão de correção:
+Para corrigir esse erro, você deve passar um vetor para a função `ordenar`. Por exemplo, você pode fazer assim:
+
+```plaintext
+ordenar([5]);
+```
+
+Ou, se você quiser ordenar mais números, pode fazer:
+
+```plaintext
+ordenar([5, 3, 8, 1]);
+```
+
+Dessa forma, você estará passando um vetor válido para a função `ordenar`, e isso deve resolver o problema.
+
+Continue praticando! Se precisar de mais ajuda, estou aqui! 😊"
+70,"var x = ""abc"";\nordenar(x);...",Erro: [Linha: 2] Valor Inválido. Objeto inserido n,10.4369,1468,500,0.0005202,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var x = ""abc"";
+ordenar(x);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'STRING', lexeme: '""abc""', literal: 'abc', line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'ordenar', literal: null, line: 2 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 2 },
+  Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 2 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 2 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 2 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 3 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ Var { name: Token { type: 'IDENTIFIER', lexeme: 'x', literal: null, line: 1 },
+    initializer: Literal { value: 'abc' } },
+  Expression { expression: Call { callee: [Variable], paren: [Token], args: [Array] }} ]
+```
+
+### Output do console:
+```plaintext
+Erro: [Linha: 2] Valor Inválido. Objeto inserido não é um vetor.
+```
+
+### Análise:
+O seu código está quase correto, mas o erro ocorre na linha 2, onde você está tentando chamar a função `ordenar(x)`. O erro indica que o valor passado para a função não é um vetor, mas sim uma string (`""abc""`). A função `ordenar` provavelmente espera um vetor como argumento.
+
+### Sugestão de correção:
+Para corrigir o erro, você deve passar um vetor para a função"
+71,vara numero = 10;\nescreva(numero);...,[Linha: 1] Erro no 'numero': Esperado ';' após exp,5.8812,1716,255,0.0004104,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+vara numero = 10;
+escreva(numero);
+```
+
+### Tokens do Usuário:
+Os tokens indicam que você usou `vara` em vez de `var` para declarar a variável. Isso é um erro de digitação, pois a palavra-chave correta para declarar uma variável em 'Égua' é `var`.
+
+### AST do Usuário:
+A AST mostra que a declaração da variável não foi reconhecida corretamente, resultando em um `null` para a primeira parte da árvore.
+
+### Saída do Console:
+A mensagem de erro indica que houve um problema na linha 1: ""Erro no 'numero': Esperado ';' após expressão."" Isso é causado pela declaração incorreta da variável.
+
+### Correção Sugerida:
+Para corrigir o seu código, basta substituir `vara` por `var`. O código corrigido ficaria assim:
+
+```plaintext
+var numero = 10;
+escreva(numero);
+```
+
+### Resultado Esperado:
+Com essa correção, a execução deve ser bem-sucedida e a saída do console deve ser `10`.
+
+Parabéns por estar praticando e aprendendo! Se precisar de mais ajuda, estou aqui!"
+72,var x = 10;\nprint(x);...,Erro: [Linha: 2] Variável não definida 'print'.,3.7991,1517,141,0.0003121,"Parece que você encontrou um erro na execução do seu código. O erro ocorreu na linha 2, onde a mensagem indica que a variável 'print' não está definida.
+
+O problema é que você usou a função `print`, que não é reconhecida na linguagem 'Égua'. Em vez disso, você deve usar `escreva` para imprimir valores no console.
+
+Aqui está a correção sugerida para o seu código:
+
+```plaintext
+var x = 10;
+escreva(x);
+```
+
+Com essa alteração, seu código deve funcionar corretamente e imprimir o valor de `x`, que é 10. Continue praticando e não hesite em perguntar se precisar de mais ajuda!"
+73,var n = aleatorioEntre();\nescreva(n);...,Erro: [Linha: 1] A função recebe ao menos um parâm,10.1502,1995,500,0.0005992,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var n = aleatorioEntre();
+escreva(n);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'n', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'aleatorioEntre', literal: null, line: 1 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 1 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'ESCREVA', lexeme: 'escreva', literal: null, line: 2 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 2 },
+  Token { type: 'IDENTIFIER', lexeme: 'n', literal: null, line: 2 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 2 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 2 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 3 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ Var { name: Token { type: 'IDENTIFIER', lexeme: 'n', literal: null, line: 1 },
+    initializer: Call { callee: [Variable], paren: [Token], args: [] } },
+  Escreva { expression: Variable { name: [Token] } } ]
+```
+
+### Output do console:
+```plaintext
+Erro: [Linha: 1] A função recebe ao menos um parâmetro
+```
+
+### Análise:
+O erro ocorreu na **linha 1**. A função `aleatorioEntre()` foi chamada sem parâmetros, mas ela requer pelo menos um parâmetro para funcionar corretamente. 
+
+### Sugest"
+74,função loop(n){\n  retorna(n)\n}...,[Linha: 3] Erro no '}': Esperado ';' após o retorn,4.2086,2987,191,0.0005626,"Olá! Vamos analisar o seu código.
+
+O código que você escreveu é:
+
+```plaintext
+função loop(n){
+  retorna(n)
+}
+```
+
+### Análise do Erro
+
+A saída do console indica que houve um erro na linha 3, onde o console esperava um ponto e vírgula (`;`) após o comando `retorna(n)`. Além disso, na linha 4, o console esperava um fechamento de bloco (`}`) após o bloco da função.
+
+### Correção Sugerida
+
+Para corrigir esses erros, você deve adicionar um ponto e vírgula após o comando `retorna(n)`. O código corrigido ficaria assim:
+
+```plaintext
+função loop(n){
+  retorna(n);
+}
+```
+
+### Conclusão
+
+Com essa correção, o código deve funcionar corretamente. Parabéns por estar praticando e aprendendo a programar! Se precisar de mais ajuda, estou aqui!"
+75,var numero = 10;\nse (numero % 2 == 0) {\n    escr...,É par,2.366,2422,75,0.0004083,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""É par"" faz total sentido, dado que você está verificando se o número 10 é par. O código está correto e a lógica da condição no bloco `se` está funcionando como esperado. Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar."
+76,"var n = 5;\nse(n % 2 == 0){\n  escreva(""Par"");\n}\...",Ímpar,2.9398,3510,109,0.0005919,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Ímpar"" faz total sentido, dado que você está verificando se o número 5 é par ou ímpar. Como 5 não é divisível por 2, a condição no bloco `se` não é satisfeita, levando à execução do bloco `senão`, que imprime ""Ímpar"".
+
+Se precisar de mais ajuda ou tiver outras dúvidas sobre a linguagem 'Égua', estou aqui para ajudar! Continue praticando! 🎉"
+77,var x = 3;\nsenão{\n  escreva(x);\n}...,[Linha: 2] Erro no 'senão': Esperado expressão.\n[,8.7559,1611,356,0.0004552,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var x = 3;
+senão{
+  escreva(x);
+}
+```
+
+### Tokens:
+Os tokens parecem estar corretos e refletem a estrutura do seu código.
+
+### AST:
+A árvore sintática (AST) também está bem formada, mas parece que o bloco `senão` não está sendo interpretado corretamente.
+
+### Saída do Console:
+Você recebeu os seguintes erros:
+1. **[Linha: 2] Erro no 'senão': Esperado expressão.**
+2. **[Linha: 4] Erro no '}': Esperado expressão.**
+
+### Análise do Problema:
+O erro na linha 2 indica que o `senão` está sendo utilizado de forma inadequada. Em muitas linguagens de programação, o `senão` (ou `else`) deve ser precedido por uma condição (como um `se` ou `if`). No seu código, não há uma condição associada ao `senão`, o que causa a confusão.
+
+### Sugestão de Correção:
+Para corrigir isso, você deve adicionar uma condição antes do `senão`. Aqui está um exemplo de como você pode estruturar seu código:
+
+```plaintext
+se (x > 0) {
+  escreva(""x é positivo"");
+} senão {
+  escreva(x);
+}
+```
+
+Neste exemplo, o `senão` é precedido por um `se`, que verifica se `x` é maior que 0. Assim, o código terá uma estrutura lógica correta.
+
+### Conclusão:
+Tente ajustar seu código conforme sugerido e execute novamente. Se precisar de mais ajuda, estou aqui para ajudar! Boa sorte!"
+78,var a = 5;\nvar b = 3;\nvar soma = a + b;\nescreva...,8,3.9479,2834,123,0.0004989,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `8`, faz total sentido. Você declarou as variáveis `a` e `b` com os valores `5` e `3`, respectivamente, e depois calculou a soma delas, armazenando o resultado na variável `soma`. Quando você chamou `escreva(soma)`, o console exibiu corretamente o valor `8`, que é a soma de `5` e `3`.
+
+Continue assim! Se tiver mais perguntas ou precisar de ajuda com outros códigos, estou aqui para ajudar!"
+79,var a = 10;\nvar b = 20;\nvar soma = a + b;\nescre...,30,5.086,2641,120,0.0004682,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é 30, faz total sentido. Você declarou as variáveis `a` e `b` com os valores 10 e 20, respectivamente, e depois calculou a soma delas, armazenando o resultado na variável `soma`. Ao final, você usou a função `escreva` para imprimir o valor de `soma`, que é 30. 
+
+Continue assim, você está indo muito bem! Se precisar de mais ajuda ou tiver outras dúvidas, estou à disposição."
+80,"var texto = ""Erro de aspas;\nescreva(texto);...",[Linha: 1] Erro no '': Texto não finalizado.,9.6358,874,349,0.0003405,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var texto = ""Erro de aspas;\nescreva(texto);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'texto', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 1 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ null ]
+```
+
+### Output do console:
+```plaintext
+[Linha: 1] Erro no '': Texto não finalizado.
+```
+
+### Análise:
+O erro ocorreu na linha 1, e a mensagem indica que o texto não foi finalizado corretamente. O problema está na forma como você está utilizando as aspas. O trecho `escreva(texto);` não está corretamente delimitado por aspas, e a string `""Erro de aspas;\n` também não foi fechada.
+
+### Correção sugerida:
+Para corrigir o seu código, você deve garantir que todas as strings estejam corretamente fechadas com aspas. Aqui está uma versão corrigida do seu código:
+
+```plaintext
+var texto = ""Erro de aspas;\n"";
+escreva(texto);
+```
+
+Dessa forma, a string `texto` é corretamente definida e você pode chamá-la com a função `escreva`.
+
+Parabéns por estar praticando! Se precisar de mais ajuda, estou aqui!"
+81,var anoAtual = 2024;\nvar nascimento = 1990;\nescr...,Idade: 34,4.7232,2824,108,0.0004884,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Idade: 34"" faz total sentido. Você calculou corretamente a idade subtraindo o ano de nascimento (1990) do ano atual (2024). 
+
+O uso da função `texto` para converter o resultado da subtração em uma string e concatená-la com ""Idade: "" está correto. Continue assim, seu entendimento da linguagem de programação 'Égua' está ótimo! Se precisar de mais ajuda, estou aqui!"
+82,var x = 10;\nvar y = 4;\nvar resultado = x - y;\ne...,6,3.2515,2249,112,0.0004045,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é 6, faz total sentido. Você declarou as variáveis `x` e `y`, atribuiu os valores 10 e 4 a elas, respectivamente, e depois calculou a diferença entre `x` e `y`, armazenando o resultado na variável `resultado`. Ao final, você utilizou a função `escreva` para exibir o valor de `resultado`, que é 6. Ótimo trabalho! Continue assim!"
+83,var x = 10;\nvar t = tamanho(x);\nescreva(t);...,Erro: [Linha: 2] Não é possível encontrar o tamanh,7.6485,1764,312,0.0004518,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var x = 10;
+var t = tamanho(x);
+escreva(t);
+```
+
+### Tokens:
+Os tokens estão corretos e refletem a estrutura do seu código.
+
+### AST:
+A árvore sintática também parece estar bem formada, representando as variáveis e a chamada da função `escreva`.
+
+### Saída do console:
+A saída que você obteve foi:
+```
+Erro: [Linha: 2] Não é possível encontrar o tamanho de um número.
+```
+
+### Análise do erro:
+O erro ocorreu na linha 2, onde você tentou usar a função `tamanho` para obter o tamanho da variável `x`, que é um número. A função `tamanho` geralmente é utilizada para obter o tamanho de coleções, como strings ou arrays, e não pode ser aplicada a um número.
+
+### Sugestão de correção:
+Se a intenção era obter o tamanho de uma string ou de um array, você deve garantir que `x` seja do tipo apropriado. Por exemplo, se você quiser calcular o tamanho de uma string, você pode fazer assim:
+
+```plaintext
+var x = ""10""; // Agora x é uma string
+var t = tamanho(x);
+escreva(t);
+```
+
+Se você realmente precisa trabalhar com números e deseja realizar outra operação, por favor, me avise para que eu possa ajudar com a lógica correta!
+
+Continue praticando e não hesite em perguntar se tiver mais dúvidas! 😊"
+84,"var msg = ""Olá\nescreva(msg);...",[Linha: 1] Erro no '': Texto não finalizado.,7.5947,870,334,0.0003309,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var msg = ""Olá\nescreva(msg);
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'IDENTIFIER', lexeme: 'msg', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 1 } ]
+```
+
+### AST do usuário:
+```plaintext
+[ null ]
+```
+
+### Output do console:
+```plaintext
+[Linha: 1] Erro no '': Texto não finalizado.
+```
+
+### Análise:
+O erro ocorreu na linha 1, e a mensagem indica que há um problema com o texto não finalizado. O problema está na forma como a string foi delimitada. Você começou a string com aspas duplas (`""`), mas não a fechou corretamente. 
+
+### Correção sugerida:
+Para corrigir o erro, você deve garantir que a string seja fechada corretamente. O código corrigido ficaria assim:
+
+```plaintext
+var msg = ""Olá\n""; // Aqui a string é fechada corretamente
+escreva(msg); // Chamada da função escreva
+```
+
+Assim, você terá uma string bem formada e a chamada da função `escreva` também estará correta.
+
+Parabéns por estar praticando e buscando melhorar! Se precisar de mais ajuda, estou aqui!"
+85,var msg = 'Olá mundo';\nescreva(msg);...,Olá mundo,3.0544,1524,88,0.0002814,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, ""Olá mundo"", faz total sentido com o que você programou. Você declarou uma variável `msg` com o valor `'Olá mundo'` e, em seguida, utilizou a função `escreva` para exibir esse valor. Ótimo trabalho! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar!"
+86,var a = 5;\nvar b = 10;\nvar temp = a;\na = b; \ne...,10,3.5406,2600,117,0.0004602,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `10`, faz total sentido. 
+
+Você declarou as variáveis `a` e `b`, atribuiu o valor de `a` a `temp`, e depois atualizou `a` para o valor de `b`. Portanto, ao chamar `escreva(a)`, você obteve o valor de `b`, que é `10`. 
+
+Continue assim! Se precisar de mais ajuda ou tiver mais perguntas sobre a linguagem 'Égua', estou aqui para ajudar!"
+87,"var txt = ""Égua"";\nvar t = tamanho(txt);\nescreva(...",4,2.4202,1994,87,0.0003513,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `4`, faz sentido. Isso indica que a função `tamanho` corretamente retornou o número de caracteres na string `""Égua""`, que é 4. 
+
+Você fez um ótimo trabalho utilizando variáveis e funções! Continue assim! Se tiver mais perguntas ou precisar de ajuda com outros códigos, estou aqui para ajudar."
+88,"var nome = ""Daniel"";\nescreva(""Olá"");\nescreva(nom...",Olá Daniel,2.9255,2281,96,0.0003997,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console está correta: ""Olá Daniel"". 
+
+O seu código declara uma variável `nome` com o valor ""Daniel"", e em seguida, você utiliza a função `escreva` para imprimir ""Olá"" e depois o valor da variável `nome`. A forma como você estruturou o código e utilizou as funções está perfeita!
+
+Continue assim e se precisar de mais ajuda, estou aqui!"
+89,var a = 3;\nb = 4;\nvar c = a + b;\nescreva(c);...,Erro: [Linha: 2] Variável não definida 'b'.,7.7094,2565,338,0.0005875,"Olá! Vamos analisar o seu código.
+
+Você escreveu:
+
+```plaintext
+var a = 3;
+b = 4;
+var c = a + b;
+escreva(c);
+```
+
+### Análise do Código
+1. **Declaração de Variáveis**: Você declarou a variável `a` corretamente, mas a variável `b` foi atribuída sem a palavra-chave `var`, `let` ou `const`. Isso significa que `b` não foi definida como uma variável no escopo atual.
+2. **Uso de Variáveis**: Ao tentar usar `b` na linha onde você define `c`, o interpretador não consegue encontrar `b`, resultando no erro.
+
+### Erro Identificado
+O erro ocorreu na **linha 2**, onde você tentou atribuir um valor a `b` sem declará-la. O console retornou a mensagem: **""Erro: [Linha: 2] Variável não definida 'b'.""**
+
+### Correção Sugerida
+Para corrigir o erro, você deve declarar `b` corretamente. O código corrigido ficaria assim:
+
+```plaintext
+var a = 3;
+var b = 4; // Adicione 'var' aqui
+var c = a + b;
+escreva(c);
+```
+
+Com essa alteração, `b` será reconhecida como uma variável, e o código deve funcionar corretamente.
+
+### Resultado Esperado
+Após a correção, a saída esperada no console deve ser `7`, que é a soma de `3` e `4`.
+
+Parabéns por estar praticando e aprendendo! Se precisar de mais ajuda, estou aqui!"
+90,"var x = nulo;\nse(x == nulo){\n  escreva(""Vazio"");...",Vazio,3.4291,2148,105,0.0003852,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Vazio"" faz total sentido. Você declarou a variável `x` como `nulo` e, em seguida, verificou se `x` era igual a `nulo` dentro da estrutura condicional `se`. Como a condição foi verdadeira, a mensagem ""Vazio"" foi impressa corretamente no console.
+
+Continue assim! Se precisar de mais ajuda ou tiver outras dúvidas sobre a linguagem 'Égua', estou aqui para ajudar!"
+91,var conta = (10 + 5;\nescreva(conta);...,[Linha: 1] Erro no ';': Esperado ')' após a expres,6.0674,1789,280,0.0004363,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var conta = (10 + 5;
+escreva(conta);
+```
+
+### Tokens:
+Os tokens gerados estão corretos, mas o erro está na forma como a expressão foi escrita.
+
+### AST:
+A árvore sintática (AST) também indica que houve um problema na expressão que você tentou criar.
+
+### Saída do Console:
+O erro que você recebeu foi:
+```
+[Linha: 1] Erro no ';': Esperado ')' após a expressão.
+```
+Isso significa que o compilador esperava um parêntese de fechamento `)` para completar a expressão que você começou com `(`.
+
+### Problema:
+Na linha 1, você abriu um parêntese `(`, mas não o fechou antes de colocar o ponto e vírgula `;`. Isso faz com que a expressão não seja válida.
+
+### Correção Sugerida:
+Para corrigir o seu código, você deve fechar o parêntese após a soma. O código corrigido ficaria assim:
+```plaintext
+var conta = (10 + 5);
+escreva(conta);
+```
+
+Com essa alteração, a expressão será válida e você deverá obter a saída correta, que é `15`.
+
+Parabéns por estar praticando e aprendendo! Se precisar de mais ajuda, estou aqui!"
+92,"var x = 10;\nsenão {\n    escreva(""Isso não funcio...",[Linha: 2] Erro no 'senão': Esperado expressão.\n[,8.7006,1572,322,0.0004290,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var x = 10;
+senão {
+    escreva(""Isso não funciona"");
+}
+```
+
+### Tokens do usuário:
+Os tokens estão corretos e bem formados, mas a estrutura do código apresenta um problema.
+
+### AST do usuário:
+A AST mostra que a declaração da variável `x` foi reconhecida, mas o bloco `senão` não está estruturado corretamente.
+
+### Output do console:
+```plaintext
+[Linha: 2] Erro no 'senão': Esperado expressão.
+[Linha: 4] Erro no '}': Esperado expressão.
+```
+
+### Análise do erro:
+O erro ocorre na linha 2, onde você usou `senão` sem uma condição anterior. Em uma estrutura de controle, como `senão`, é necessário que haja um `se` correspondente antes dele. O `senão` deve ser parte de uma estrutura condicional, que espera uma expressão que avalie uma condição.
+
+### Sugestão de correção:
+Para corrigir o seu código, você pode adicionar uma condição antes do `senão`. Aqui está um exemplo de como você poderia reestruturar seu código:
+
+```plaintext
+se (x > 5) {
+    escreva(""x é maior que 5"");
+} senão {
+    escreva(""Isso não funciona"");
+}
+```
+
+Dessa forma, você terá uma estrutura condicional válida, e o código deve funcionar corretamente.
+
+Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar! 😊"
+93,valor = 50;\nescreva(valor);...,Erro: [Linha: 1] Variável não definida 'valor'.,4.2094,1747,158,0.0003568,"Parece que houve um erro na execução do seu código. O erro ocorreu na **linha 1**, onde você tentou usar a variável `valor` antes de declará-la. O código está tentando atribuir um valor a `valor`, mas a variável não foi definida previamente.
+
+Para corrigir isso, você deve declarar a variável `valor` antes de atribuir um valor a ela. Aqui está uma sugestão de como você pode modificar seu código:
+
+```plaintext
+var valor = 50;
+escreva(valor);
+```
+
+Com essa alteração, você declara a variável `valor` corretamente antes de usá-la na função `escreva`. Assim, a execução deve ser bem-sucedida e você verá a saída esperada no console. Boa sorte e continue praticando!"
+94,"var 1nome = ""Teste"";\nescreva(1nome);...",[Linha: 1] Erro no '1': Esperado nome de variável.,7.8962,1601,279,0.0004076,"Olá! Vamos analisar o seu código.
+
+### Código do Usuário:
+```plaintext
+var 1nome = ""Teste"";
+escreva(1nome);
+```
+
+### Tokens:
+Os tokens indicam que você tentou declarar uma variável chamada `1nome`, que começa com um número. Isso não é permitido em muitas linguagens de programação, incluindo a linguagem 'Égua'. O nome de uma variável deve começar com uma letra ou um caractere sublinhado (_).
+
+### Erros Identificados:
+1. **Linha 1**: O erro `Erro no '1': Esperado nome de variável` ocorre porque o nome da variável não pode começar com um número.
+2. **Linha 2**: O erro `Erro no 'nome': Esperado ')' após os valores em escreva` é gerado porque o compilador não conseguiu reconhecer `1nome` como uma variável válida, resultando em um erro de sintaxe.
+
+### Sugestão de Correção:
+Para corrigir o seu código, você deve renomear a variável para que comece com uma letra. Por exemplo:
+
+```plaintext
+var nome1 = ""Teste"";
+escreva(nome1);
+```
+
+Com essa alteração, o código deve funcionar corretamente e você deverá obter a saída `Teste` no console.
+
+Se precisar de mais ajuda, estou à disposição! Boa sorte com a programação! 😊"
+95,se(verdadeiro){\n  var x = 3;\n}\nescreva(x);...,Erro: [Linha: 4] Variável não definida 'x'.,6.4624,1656,208,0.0003732,"Parece que você encontrou um erro na execução do seu código. O erro ocorreu na linha 4, onde você tentou usar a variável `x` na instrução `escreva(x);`. O problema é que a variável `x` foi declarada dentro de um bloco condicional (`se(verdadeiro)`) e, portanto, não está acessível fora desse bloco.
+
+Para corrigir isso, você pode mover a declaração da variável `x` para fora do bloco condicional, assim ela estará disponível para a instrução `escreva`. Aqui está uma sugestão de como você pode reestruturar seu código:
+
+```plaintext
+var x = 3; // Declare a variável fora do bloco
+se(verdadeiro) {
+  // Você pode manter o bloco se precisar
+}
+escreva(x);
+```
+
+Com essa alteração, a variável `x` estará definida antes de você tentar usá-la, e o erro deve ser resolvido. Continue praticando, você está indo muito bem!"
+96,"var = 10; \nescreva(""Erro de declaração"");...",[Linha: 1] Erro no '=': Esperado nome de variável.,18.9554,1303,500,0.0004954,"Olá! Vamos analisar o seu código.
+
+### Código do usuário:
+```plaintext
+var = 10; 
+escreva(""Erro de declaração"");
+```
+
+### Tokens do usuário:
+```plaintext
+[ Token { type: 'VAR', lexeme: 'var', literal: null, line: 1 },
+  Token { type: 'EQUAL', lexeme: '=', literal: null, line: 1 },
+  Token { type: 'NUMBER', lexeme: '10', literal: 10, line: 1 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 1 },
+  Token { type: 'ESCREVA', lexeme: 'escreva', literal: null, line: 2 },
+  Token { type: 'LEFT_PAREN', lexeme: '(', literal: null, line: 2 },
+  Token { type: 'STRING', lexeme: '""Erro de declaração""', literal: 'Erro de declaração', line: 2 },
+  Token { type: 'RIGHT_PAREN', lexeme: ')', literal: null, line: 2 },
+  Token { type: 'SEMICOLON', lexeme: ';', literal: null, line: 2 },
+  Token { type: 'EOF', lexeme: '', literal: null, line: 3 } ]
+```
+
+### AST do usuário:
+```plaintext
+[null, Escreva { expression: Literal { value: 'Erro de declaração' } }]
+```
+
+### Output do console:
+```plaintext
+[Linha: 1] Erro no '=': Esperado nome de variável.
+```
+
+### Análise:
+O erro ocorreu na linha 1, onde você tentou declarar uma variável usando `var = 10;`. O problema é que a sintaxe correta para declarar uma variável em 'Égua' deve incluir um identificador (nome da variável) após a palavra-chave `var`. O correto seria algo como `var nomeDaVariavel = 10;`.
+
+### Sugestão de correção:
+Altere a linha de declaração da variável para incluir um nome válido. Por exemplo:
+```plaintext
+var x = 10; 
+escreva(""Erro de declaração"");
+```
+
+Com essa correção, seu código deve funcionar corretamente e a saída do console será a mensagem que você deseja imprimir.
+
+Se precisar de mais ajuda, estou aqui! Boa sorte com seu"
+97,"var ativo = verdadeiro;\nse(ativo){\n  escreva(""Li...",Ligado,4.6187,2573,116,0.0004556,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Ligado"" faz total sentido. Você declarou a variável `ativo` como `verdadeiro` e, em seguida, utilizou uma estrutura condicional `se` para verificar seu valor. Como `ativo` é verdadeiro, o bloco dentro do `se` foi executado corretamente, resultando na impressão da mensagem ""Ligado"".
+
+Continue assim, seu entendimento da linguagem de programação 'Égua' está ótimo! Se precisar de mais ajuda ou tiver outras dúvidas, estou aqui para ajudar."
+98,"var saldo = -50;\nse (saldo < 0) {\n    escreva(""D...",Devedor,6.0544,3154,87,0.0005253,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Devedor"" faz total sentido, dado que você definiu o saldo como -50 e a condição `se (saldo < 0)` foi atendida. Isso significa que o programa corretamente identificou que o saldo é negativo e imprimiu a mensagem correspondente. Continue assim! Se precisar de mais ajuda ou tiver dúvidas, estou aqui para ajudar."
+99,"var x = 10;\nse (x > 0) {\n    escreva(""Positivo"")...",Positivo,2.7765,3347,80,0.0005500,"Parabéns! A execução do seu código foi bem-sucedida e a saída ""Positivo"" faz total sentido. O código verifica se a variável `x` é maior que 0 e, como `x` é igual a 10, a condição é verdadeira, resultando na impressão da mensagem correta. Continue assim! Se tiver mais perguntas ou precisar de ajuda, estou aqui para ajudar!"
+100,"var nums = [1,2,3];\nescreva(nums[0]);...",1,3.5934,2278,98,0.0004005,"Parabéns! A execução do seu código foi bem-sucedida e a saída do console, que é `1`, faz total sentido. Você declarou um array `nums` com os valores `[1, 2, 3]` e, em seguida, utilizou a função `escreva` para imprimir o primeiro elemento do array, que está na posição `0`. Ótimo trabalho! Se precisar de mais ajuda ou tiver outras perguntas, fique à vontade para perguntar!"

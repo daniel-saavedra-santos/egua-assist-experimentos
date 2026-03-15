@@ -1,0 +1,161 @@
+﻿ID,Prompt,Saida_IA,Tempo_Segundos,Tokens_Input_Est,Tokens_Output_Est,Custo_USD,Status
+1,crie uma variável chamada prateleiras com o valor 6,var prateleiras = 6;,8.2059,172,5,0.000029,Sucesso
+2,defina uma variável chamada idade_Minima com o valor 16,var idade_Minima = 16;,3.8626,137,5,0.000024,Sucesso
+3,guarde em uma variável chamada passageiros_de_voo o valor 180,var passageiros_de_voo = 180;,3.2699,183,7,0.000032,Sucesso
+4,guarde em uma variável chamada paginas_livro o valor 320,var paginas_livro = 320;,2.2978,141,6,0.000025,Sucesso
+5,crie uma variável chamada vagas que armazena o valor 25,var vagas = 25;,3.0672,164,3,0.000027,Sucesso
+6,defina uma variável chamada graus,var graus;,3.1046,141,2,0.000023,Sucesso
+7,crie uma variável chamada idadeCachorro,var idadeCachorro;,3.0231,147,4,0.000025,Sucesso
+8,defina uma variável chamada mesas com o valor 28,var mesas = 28;,3.9325,137,3,0.000023,Sucesso
+9,guarde o valor 45 na variável casas,var casas = 45;,2.6088,139,3,0.000023,Sucesso
+10,crie uma variável chamada dias_ferias com o valor 15,var dias_ferias = 15;,4.8199,137,5,0.000024,Sucesso
+11,crie uma variável chamada altura para armazenar o valor 1.75,var altura = 1.75;,1.6634,172,4,0.000029,Sucesso
+12,defina uma variável chamada precoPizza com o valor 39.90,var precoPizza = 39.9;,3.5617,136,5,0.000024,Sucesso
+13,crie uma variável chamada saldo com o valor 1532.67,var saldo = 1532.67;,1.6248,136,5,0.000024,Sucesso
+14,crie uma variável chamada aluno com o nome Carla,"var aluno = ""Carla"";",1.3762,161,5,0.000027,Sucesso
+15,defina uma variável chamada cidade com a string Belém,"var cidade = ""Belém"";",1.9542,215,5,0.000035,Sucesso
+16,defina uma variável chamada cor com o valor Azul,"var cor = ""Azul"";",1.3303,167,4,0.000028,Sucesso
+17,crie uma variável letra que armazene A,"var letra = ""A"";",1.3796,138,4,0.000023,Sucesso
+18,defina uma variável chamada simbolo que armazena @,"var simbolo = ""@"";",1.5647,144,4,0.000024,Sucesso
+19,crie uma variável chamada sigla que armazena o valor SP,"var sigla = ""SP"";",1.226,186,4,0.000031,Sucesso
+20,guarde em uma variável chamada jogo o nome Xadrez,"var jogo = ""Xadrez"";",2.3545,138,5,0.000024,Sucesso
+21,crie uma variável chamada lampadaLigada com o valor verdadeiro,var lampadaLigada = verdadeiro;,1.6643,227,7,0.000039,Sucesso
+22,defina uma variável chamada usuarioAtivo com o valor falso,var usuarioAtivo = falso;,1.068,233,6,0.000039,Sucesso
+23,guarde o valor falso em uma variável chamada portaAberta,var portaAberta = falso;,1.8029,171,6,0.000029,Sucesso
+24,crie uma variável chamada compraPaga com o valor verdadeiro,var compraPaga = verdadeiro;,1.3209,196,7,0.000034,Sucesso
+25,defina uma variável chamada aprovado com o valor verdadeiro,var aprovado = verdadeiro;,1.2367,265,6,0.000044,Sucesso
+26,some o valor 20 e 25 e armazene na variavel idade,var idade = 20 + 25;,1.7676,137,5,0.000024,Sucesso
+27,armazene na variável total a soma de 12.5 mais 8.9,var total = 12.5 + 8.9;,1.4055,158,5,0.000027,Sucesso
+28,subtraia 32 de 28 e armazene o resultado na variável temperatura,var temperatura = 28 - 32;,1.0808,160,6,0.000028,Sucesso
+29,guarde a diferença de 2 e 5 na variável diferença,diferenca = 2 - 5;,1.1782,133,4,0.000023,Sucesso
+30,multiplique a quantidade 8 de horas por 20 dias e armazene o resultado em Carga Horária,Carga_Horaria = 8 * 20;,1.5449,140,5,0.000025,Sucesso
+31,armazene o resultado da multiplicação de 7 e 6 na variável resultado,var resultado = 7 * 6;,1.0627,165,5,0.000028,Sucesso
+32,armazene na variável media a média entre 7.5 e 8.0,var media = (7.5 + 8.0) / 2;,1.1186,145,7,0.000026,Sucesso
+33,calcule o quadrado de 5 e armazene na variável quadrado,var quadrado = 5 * 5;,2.0181,138,5,0.000024,Sucesso
+34,armazene o cubo de 3 na variável cubo,var cubo = 3 * 3 * 3;,1.4471,155,5,0.000026,Sucesso
+35,some os números 10,10;,1.3231,161,0,0.000025,Sucesso
+36,crie uma condição que verifique se a variável x é maior que vinte e incremente a variável contador em um,"se(x>20){
+  contador = contador + 1;
+}",1.2467,211,9,0.000037,Sucesso
+37,crie uma condição que verifique se a variável idade é menor que 18 e atribua o texto menor de idade para a variável status,"se(idade<18){
+  status = ""menor de idade"";
+}",2.2764,242,11,0.000043,Sucesso
+38,crie uma condição que verifique se a variável saldo é igual a zero e imprima a mensagem Conta zerada,"se(saldo==0){
+  escreva(""Conta zerada"");
+}",1.1445,262,10,0.000046,Sucesso
+39,crie uma condição que verifique se a variável temperatura é maior que 30 e defina a variável clima como quente,"se(temperatura>30){
+  clima = ""quente"";
+}",1.2478,237,10,0.000042,Sucesso
+40,crie uma condição que verifique se a variável numero é par e some 1 à variável pares,"se(numero%2==0){
+  pares = pares + 1;
+}",1.1485,249,9,0.000043,Sucesso
+41,crie uma condição que verifique se a string casa é igual a moradia e defina a variável sinonimos como verdadeira,"se(""casa""==""moradia""){
+  sinonimos = verdadeiro;
+}",1.2791,231,12,0.000042,Sucesso
+42,crie uma condição que verifique se a string senha é igual a 1234 e incremente a variável acessos,"se(senha==""1234""){
+  acessos = acessos + 1;
+}",1.945,247,11,0.000044,Sucesso
+43,crie uma condição que verifique se a variável altura é maior ou igual a 1.75 e defina a variável aprovado como verdadeira,"se(altura>=1.75){
+  aprovado = verdadeiro;
+}",2.0426,233,11,0.000042,Sucesso
+44,crie uma condição que verifique se o preço é menor que 100 e aplique um desconto de 10 na variável preco,"se(preco<100){
+  preco = preco - 10;
+}",1.1947,272,9,0.000046,Sucesso
+45,crie uma condição que verifique se a variável nota é maior ou igual a 6 e atribua Aprovado à variável situacao,"se(nota>=6){
+  situacao = ""Aprovado"";
+}",2.3398,194,9,0.000035,Sucesso
+46,crie uma condição que verifique se a variável velocidade é menor que 60 e imprima Velocidade permitida,"se(velocidade<60){
+  escreva(""Velocidade permitida"");
+}",1.1607,202,13,0.000039,Sucesso
+47,crie uma condição que verifique se a variável idade é igual a 30 e some 1 à variável contador,"se(idade==30){
+  contador = contador + 1;
+}",1.2555,262,10,0.000046,Sucesso
+48,crie um bloco senão que escreva Condição não satisfeita,"senão{
+  escreva(""Condição não satisfeita"");
+}",1.2786,200,11,0.000037,Sucesso
+49,crie um bloco senão que escreva Limite excedido,"senão{
+  escreva(""Limite excedido"");
+}",1.3581,199,9,0.000036,Sucesso
+50,crie um bloco senão que escreva Operação inválida,"senão{
+  escreva(""Operação inválida"");
+}",1.1946,201,10,0.000036,Sucesso
+51,crie um bloco senão que escreva Login inválido,"senão{
+  escreva(""Login inválido"");
+}",1.9852,173,9,0.000032,Sucesso
+52,crie um bloco senão que escreva Chave incorreta,"senão{
+  escreva(""Chave incorreta"");
+}",1.1222,191,9,0.000034,Sucesso
+53,crie um bloco senão que escreva Saldo insuficiente para saque,"senão{
+  escreva(""Saldo insuficiente para saque"");
+}",2.2783,199,13,0.000038,Sucesso
+54,crie um bloco senão que escreva Usuário não encontrado,"senão{
+  escreva(""Usuário não encontrado"");
+}",1.289,191,11,0.000035,Sucesso
+55,crie um bloco senão que escreva Processo não concluído,"senão{
+  escreva(""Processo não concluído"");
+}",1.9207,197,11,0.000036,Sucesso
+56,crie um bloco senão que escreva Produto não selecionado,"senão{
+  escreva(""Produto não selecionado"");
+}",1.1674,376,11,0.000063,Sucesso
+57,crie um bloco senão que escreva Operação cancelada,"senão{
+  escreva(""Operação cancelada"");
+}",1.8838,210,10,0.000038,Sucesso
+58,crie um bloco senão que escreva Erro de sistema,"senão{
+  escreva(""Erro de sistema"");
+}",1.2296,362,9,0.000060,Sucesso
+59,crie um bloco senão que escreva Pagamento pendente,"senão{
+  escreva(""Pagamento pendente"");
+}",1.0978,194,10,0.000035,Sucesso
+60,mostrar a saudação Olá,escreva('Olá');,1.3198,122,3,0.000021,Sucesso
+61,exibir a string São Paulo,"escreva(""São Paulo"");",1.2274,243,5,0.000040,Sucesso
+62,somar 7 e 3 e exibir o resultado,escreva(7 + 3);,0.996,154,3,0.000025,Sucesso
+63,concatenar as palavras Bom e dia e exibir o resultado,escreva('Bom' + 'dia');,1.1699,139,5,0.000024,Sucesso
+64,exibir o resultado da subtração de 20 e 5,escreva(20 - 5);,1.2686,175,4,0.000029,Sucesso
+65,juntar as strings Maria e Silva e mostrar o resultado,escreva('Maria' + ' Silva');,1.0594,190,7,0.000033,Sucesso
+66,exibir o resultado da multiplicação de 6 e 7,escreva(6 * 7);,1.0839,165,3,0.000027,Sucesso
+67,exibir o resultado da divisão de 100 por 4,escreva(100 / 4);,1.0038,157,4,0.000026,Sucesso
+68,concatenar as strings Oi e amigo e exibir o resultado,escreva('Oi' + ' amigo');,1.1278,137,6,0.000024,Sucesso
+69,somar 1000 com 2500 e exibir o resultado,escreva(1000 + 2500);,1.9219,117,5,0.000021,Sucesso
+70,exibir a mensagem Atenção! Sistema fora do ar,"escreva(""Atenção! Sistema fora do ar"");",1.1367,187,9,0.000034,Sucesso
+71,concatenar as frases Como vai? e Tudo bem? e mostrar o resultado,"escreva(""Como vai?"" + "" Tudo bem?"");",1.2921,146,9,0.000027,Sucesso
+72,exibir a soma de 50 e 75,escreva(50 + 75);,0.9668,114,4,0.000020,Sucesso
+73,exibir a string Até logo!,escreva('Até' + ' logo' + '!');,1.1359,136,7,0.000025,Sucesso
+74,exibir a diferença entre 90 e 33,escreva(90 - 33);,1.7381,114,4,0.000020,Sucesso
+75,exibir a multiplicação de 12 com 12,escreva(12 * 12);,2.8339,131,4,0.000022,Sucesso
+76,concatenar as strings João e Souza e exibir o resultado,"escreva(""João"" + "" Souza"");",1.7987,174,6,0.000030,Sucesso
+77,exibir o resultado da divisão de 144 por 12,escreva(144 / 12);,2.1607,125,4,0.000022,Sucesso
+78,exibir o resultado da soma de 3.5 e 4.5,escreva(3.5 + 4.5);,1.6769,167,4,0.000028,Sucesso
+79,exibir a concatenação de Boa e tarde,escreva('Boa' + ' tarde');,1.0927,131,6,0.000024,Sucesso
+80,exibir resultado da subtração de 10.5 por 2.3,escreva(10.5 - 2.3);,1.1996,171,5,0.000029,Sucesso
+81,exibir o resultado da multiplicação entre 1.5 e 4.0,escreva(1.5 * 4.0);,1.1921,198,4,0.000033,Sucesso
+82,exibir o resultado da divisão decimal de 7.5 por 2.5,escreva(7.5 / 2.5);,1.2083,166,4,0.000028,Sucesso
+83,exibir o aviso Erro: arquivo não encontrado,escreva('Erro:' + ' arquivo não encontrado');,1.3503,103,11,0.000022,Sucesso
+84,exibir a soma de 25 e 5,escreva(25 + 5);,1.1565,113,4,0.000019,Sucesso
+85,exibir a concatenação das strings Rua A e Número 10,"escreva(""Rua A"" + "" Número 10"");",1.2048,152,8,0.000028,Sucesso
+86,exibir a subtração de 100 e 47,escreva(100 - 47);,2.2159,192,4,0.000032,Sucesso
+87,exibir o resultado de multiplicação de 15 e 3,escreva(15 * 3);,1.1358,165,4,0.000027,Sucesso
+88,exibir a concatenação das strings Ciência e da Computação,escreva('Ciência' + ' da Computação');,1.2607,162,9,0.000030,Sucesso
+89,exibir o resultado da divisão de 300 por 3,escreva(300 / 3);,1.5563,121,4,0.000021,Sucesso
+90,exibir a soma de 200 e 150,escreva(200 + 150);,1.3241,112,4,0.000020,Sucesso
+91,exibir a concatenação de duas mensagens informativas: Processando e Dados,escreva('Processando' + ' Dados');,1.3846,204,8,0.000036,Sucesso
+92,exibir diferença entre 2025 e 1990,escreva(2025 - 1990);,1.9231,117,5,0.000021,Sucesso
+93,exibir a multiplicação entre 20 e 30,escreva(20 * 30);,2.1431,128,4,0.000022,Sucesso
+94,exibir a concatenação entre duas strings Muito e Bom,escreva('Muito' + ' Bom');,2.3105,139,6,0.000025,Sucesso
+95,crie uma condição que verifique se a variável temperatura é maior que 40 e declare como verdadeiro o valor da variável alerta_calor,"se(temperatura>40){
+  alerta_calor = verdadeiro;
+}",1.0501,242,12,0.000044,Sucesso
+96,crie uma condição que verifique se a variável nota é igual a 10 e atribua Parabéns! à variável mensagem,"se(nota==10){
+  mensagem = ""Parabéns!"";
+}",1.1999,229,10,0.000041,Sucesso
+97,crie uma condição que verifique se a variável velocidade é menor que 30 e mude a variável marcha para 2,"se(velocidade<30){
+  marcha = 2;
+}",1.4712,216,8,0.000038,Sucesso
+98,crie uma condição que verifique se a variável distancia é igual a 100 e some 10 à variável pontos,"se(distancia==100){
+  pontos = pontos + 10;
+}",1.0931,264,11,0.000046,Sucesso
+99,crie uma condição que verifique se a variável saldo é menor que 100 e envie um alerta de saldo baixo,"se(saldo<100){
+  escreva(""Alerta de saldo baixo"");
+}",1.1817,284,13,0.000050,Sucesso
+100,crie uma condição que verifique se a variável numero é maior que 50 e divida numero por 2,"se(numero>50){
+  numero = numero / 2;
+}",1.4622,246,9,0.000043,Sucesso

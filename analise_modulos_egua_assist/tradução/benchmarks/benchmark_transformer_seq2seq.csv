@@ -1,0 +1,101 @@
+﻿ID,Prompt,Saida_IA,Tempo_Segundos,Tokens_Input_Est,Tokens_Output_Est,Custo_USD,Status
+1,crie uma variável chamada prateleiras com o valor 6,var a=-18274,0.0386,12,3,0.000000,Sucesso
+2,defina uma variável chamada idade_Minima com o valor 16,var a=-18274,0.0207,13,3,0.000000,Sucesso
+3,guarde em uma variável chamada passageiros_de_voo o valor 180,var a=-24391,0.0265,15,3,0.000000,Sucesso
+4,guarde em uma variável chamada paginas_livro o valor 320,var a=-24391,0.0218,14,3,0.000000,Sucesso
+5,crie uma variável chamada vagas que armazena o valor 25,var a=-5377,0.0253,13,2,0.000000,Sucesso
+6,defina uma variável chamada graus,var a=-2547,0.0207,8,2,0.000000,Sucesso
+7,crie uma variável chamada idadeCachorro,var a=-2547,0.0221,9,2,0.000000,Sucesso
+8,defina uma variável chamada mesas com o valor 28,var a=-18274,0.0209,12,3,0.000000,Sucesso
+9,guarde o valor 45 na variável casas,var resultado=15516,0.0181,8,4,0.000000,Sucesso
+10,crie uma variável chamada dias_ferias com o valor 15,var a=-18274,0.0211,13,3,0.000000,Sucesso
+11,crie uma variável chamada altura para armazenar o valor 1.75,var altura=-15641,0.022,15,4,0.000000,Sucesso
+12,defina uma variável chamada precoPizza com o valor 39.90,var a=-18274,0.0214,14,3,0.000000,Sucesso
+13,crie uma variável chamada saldo com o valor 1532.67,var valor=-24391,0.0295,12,4,0.000000,Sucesso
+14,crie uma variável chamada aluno com o nome Carla,var aluno=-13486,0.0272,12,4,0.000000,Sucesso
+15,defina uma variável chamada cidade com a string Belém,var cidade=-32782,0.0256,13,4,0.000000,Sucesso
+16,defina uma variável chamada cor com o valor Azul,var azul=azul-cor,0.0265,12,4,0.000000,Sucesso
+17,crie uma variável letra que armazene A,var para=23183,0.0216,9,3,0.000000,Sucesso
+18,defina uma variável chamada simbolo que armazena @,var a=-2547,0.0218,12,2,0.000000,Sucesso
+19,crie uma variável chamada sigla que armazena o valor SP,var a=-5377,0.021,13,2,0.000000,Sucesso
+20,guarde em uma variável chamada jogo o nome Xadrez,"var jogo=""xadrez""",0.0181,12,4,0.000000,Sucesso
+21,crie uma variável chamada lampadaLigada com o valor verdadeiro,"var genoma=-""verdadeiro""",0.0209,15,6,0.000000,Sucesso
+22,defina uma variável chamada usuarioAtivo com o valor falso,"var omega2=-""falso""",0.0217,14,4,0.000000,Sucesso
+23,guarde o valor falso em uma variável chamada portaAberta,"var ""falso""=-7073",0.0213,14,4,0.000000,Sucesso
+24,crie uma variável chamada compraPaga com o valor verdadeiro,"var genoma=-""verdadeiro""",0.0205,14,6,0.000000,Sucesso
+25,defina uma variável chamada aprovado com o valor verdadeiro,"var genoma=-""verdadeiro""",0.02,14,6,0.000000,Sucesso
+26,some o valor 20 e 25 e armazene na variavel idade,var idade=valor+valor,0.0238,12,5,0.000000,Sucesso
+27,armazene na variável total a soma de 12.5 mais 8.9,var soma=-48880,0.0209,12,3,0.000000,Sucesso
+28,subtraia 32 de 28 e armazene o resultado na variável temperatura,var temperatura=para-valor,0.024,16,6,0.000000,Sucesso
+29,guarde a diferença de 2 e 5 na variável diferença,var etereo=-20876,0.0209,12,4,0.000000,Sucesso
+30,multiplique a quantidade 8 de horas por 20 dias e armazene o resultado em Carga Horária,var a=-18274,0.0212,21,3,0.000000,Sucesso
+31,armazene o resultado da multiplicação de 7 e 6 na variável resultado,var resultado=-46049,0.0223,17,5,0.000000,Sucesso
+32,armazene na variável media a média entre 7.5 e 8.0,var media=-6824,0.0211,12,3,0.000000,Sucesso
+33,calcule o quadrado de 5 e armazene na variável quadrado,var quadrado=-27640,0.0229,13,4,0.000000,Sucesso
+34,armazene o cubo de 3 na variável cubo,var cubo=11280,0.0238,9,3,0.000000,Sucesso
+35,some os números 10,var a=a+a,0.0248,4,2,0.000000,Sucesso
+36,crie uma condição que verifique se a variável x é maior que vinte e incremente a variável contador em um,var x=46355,0.0192,26,2,0.000000,Sucesso
+37,crie uma condição que verifique se a variável idade é menor que 18 e atribua o texto menor de idade para a variável status,var idade=-33813,0.0215,30,4,0.000000,Sucesso
+38,crie uma condição que verifique se a variável saldo é igual a zero e imprima a mensagem Conta zerada,"escreva(""conta"")",0.0213,25,4,0.000000,Sucesso
+39,crie uma condição que verifique se a variável temperatura é maior que 30 e defina a variável clima como quente,var piramide=-4087,0.031,27,4,0.000000,Sucesso
+40,crie uma condição que verifique se a variável numero é par e some 1 à variável pares,var a=-28953,0.0313,21,3,0.000000,Sucesso
+41,crie uma condição que verifique se a string casa é igual a moradia e defina a variável sinonimos como verdadeira,var pod=-3991,0.0361,28,3,0.000000,Sucesso
+42,crie uma condição que verifique se a string senha é igual a 1234 e incremente a variável acessos,var senha=21520,0.0296,24,3,0.000000,Sucesso
+43,crie uma condição que verifique se a variável altura é maior ou igual a 1.75 e defina a variável aprovado como verdadeira,var altura=46355,0.0327,30,4,0.000000,Sucesso
+44,crie uma condição que verifique se o preço é menor que 100 e aplique um desconto de 10 na variável preco,var desconto=-19800,0.0391,26,4,0.000000,Sucesso
+45,crie uma condição que verifique se a variável nota é maior ou igual a 6 e atribua Aprovado à variável situacao,var nota=-19211,0.0243,27,3,0.000000,Sucesso
+46,crie uma condição que verifique se a variável velocidade é menor que 60 e imprima Velocidade permitida,escreva(velocidade),0.0217,25,4,0.000000,Sucesso
+47,crie uma condição que verifique se a variável idade é igual a 30 e some 1 à variável contador,var idade=-26203,0.026,23,4,0.000000,Sucesso
+48,crie um bloco senão que escreva Condição não satisfeita,"escreva(""não"")",0.0223,13,3,0.000000,Sucesso
+49,crie um bloco senão que escreva Limite excedido,escreva(limite),0.02,11,3,0.000000,Sucesso
+50,crie um bloco senão que escreva Operação inválida,escreva(a),0.0183,12,2,0.000000,Sucesso
+51,crie um bloco senão que escreva Login inválido,escreva(a),0.0189,11,2,0.000000,Sucesso
+52,crie um bloco senão que escreva Chave incorreta,escreva(chave),0.0172,11,3,0.000000,Sucesso
+53,crie um bloco senão que escreva Saldo insuficiente para saque,escreva(-6625,0.0185,15,3,0.000000,Sucesso
+54,crie um bloco senão que escreva Usuário não encontrado,"escreva(""não"")",0.0275,13,3,0.000000,Sucesso
+55,crie um bloco senão que escreva Processo não concluído,"escreva(""não"")",0.024,13,3,0.000000,Sucesso
+56,crie um bloco senão que escreva Produto não selecionado,"escreva(""não"")",0.0177,13,3,0.000000,Sucesso
+57,crie um bloco senão que escreva Operação cancelada,escreva(a),0.0169,12,2,0.000000,Sucesso
+58,crie um bloco senão que escreva Erro de sistema,escreva(sistema),0.0167,11,4,0.000000,Sucesso
+59,crie um bloco senão que escreva Pagamento pendente,escreva(a),0.0167,12,2,0.000000,Sucesso
+60,mostrar a saudação Olá,escreva(a),0.0171,5,2,0.000000,Sucesso
+61,exibir a string São Paulo,escreva(a),0.0176,6,2,0.000000,Sucesso
+62,somar 7 e 3 e exibir o resultado,escreva(lista),0.0169,8,3,0.000000,Sucesso
+63,concatenar as palavras Bom e dia e exibir o resultado,escreva(dia),0.0187,13,3,0.000000,Sucesso
+64,exibir o resultado da subtração de 20 e 5,escreva(resultado),0.0186,10,4,0.000000,Sucesso
+65,juntar as strings Maria e Silva e mostrar o resultado,escreva(resultado),0.0196,13,4,0.000000,Sucesso
+66,exibir o resultado da multiplicação de 6 e 7,escreva(resultado),0.0181,11,4,0.000000,Sucesso
+67,exibir o resultado da divisão de 100 por 4,escreva(resultado),0.0181,10,4,0.000000,Sucesso
+68,concatenar as strings Oi e amigo e exibir o resultado,"escreva(""amigo"")",0.017,13,4,0.000000,Sucesso
+69,somar 1000 com 2500 e exibir o resultado,escreva(e),0.0176,10,2,0.000000,Sucesso
+70,exibir a mensagem Atenção! Sistema fora do ar,"escreva(""ar"")",0.0179,11,3,0.000000,Sucesso
+71,concatenar as frases Como vai? e Tudo bem? e mostrar o resultado,escreva(resultado),0.0162,16,4,0.000000,Sucesso
+72,exibir a soma de 50 e 75,escreva(soma),0.0169,6,3,0.000000,Sucesso
+73,exibir a string Até logo!,escreva(a),0.0163,6,2,0.000000,Sucesso
+74,exibir a diferença entre 90 e 33,escreva(a),0.0151,8,2,0.000000,Sucesso
+75,exibir a multiplicação de 12 com 12,escreva(a),0.0168,8,2,0.000000,Sucesso
+76,concatenar as strings João e Souza e exibir o resultado,escreva(e),0.0168,13,2,0.000000,Sucesso
+77,exibir o resultado da divisão de 144 por 12,escreva(resultado),0.0162,10,4,0.000000,Sucesso
+78,exibir o resultado da soma de 3.5 e 4.5,escreva(soma),0.0169,9,3,0.000000,Sucesso
+79,exibir a concatenação de Boa e tarde,"escreva(""tarde"")",0.0157,9,4,0.000000,Sucesso
+80,exibir resultado da subtração de 10.5 por 2.3,escreva(a),0.016,11,2,0.000000,Sucesso
+81,exibir o resultado da multiplicação entre 1.5 e 4.0,escreva(resultado),0.0157,12,4,0.000000,Sucesso
+82,exibir o resultado da divisão decimal de 7.5 por 2.5,escreva(a),0.0154,13,2,0.000000,Sucesso
+83,exibir o aviso Erro: arquivo não encontrado,"escreva(""não"")",0.0144,10,3,0.000000,Sucesso
+84,exibir a soma de 25 e 5,escreva(soma),0.015,5,3,0.000000,Sucesso
+85,exibir a concatenação das strings Rua A e Número 10,escreva(rua),0.0156,12,3,0.000000,Sucesso
+86,exibir a subtração de 100 e 47,escreva(a),0.0151,7,2,0.000000,Sucesso
+87,exibir o resultado de multiplicação de 15 e 3,escreva(resultado),0.018,11,4,0.000000,Sucesso
+88,exibir a concatenação das strings Ciência e da Computação,"escreva(""ciência"")",0.0192,14,4,0.000000,Sucesso
+89,exibir o resultado da divisão de 300 por 3,escreva(resultado),0.0174,10,4,0.000000,Sucesso
+90,exibir a soma de 200 e 150,escreva(soma),0.0138,6,3,0.000000,Sucesso
+91,exibir a concatenação de duas mensagens informativas: Processando e Dados,"escreva(""ciência de dados"")",0.0151,18,6,0.000000,Sucesso
+92,exibir diferença entre 2025 e 1990,escreva(e),0.0153,8,2,0.000000,Sucesso
+93,exibir a multiplicação entre 20 e 30,escreva(a),0.0151,9,2,0.000000,Sucesso
+94,exibir a concatenação entre duas strings Muito e Bom,"escreva(""muito"")",0.0161,13,4,0.000000,Sucesso
+95,crie uma condição que verifique se a variável temperatura é maior que 40 e declare como verdadeiro o valor da variável alerta_calor,var temperatura=-7985,0.0183,32,5,0.000000,Sucesso
+96,crie uma condição que verifique se a variável nota é igual a 10 e atribua Parabéns! à variável mensagem,var nota=-20413,0.0181,25,3,0.000000,Sucesso
+97,crie uma condição que verifique se a variável velocidade é menor que 30 e mude a variável marcha para 2,var velocidade=34439,0.0171,25,5,0.000000,Sucesso
+98,crie uma condição que verifique se a variável distancia é igual a 100 e some 10 à variável pontos,var distancia=21667+o,0.022,24,5,0.000000,Sucesso
+99,crie uma condição que verifique se a variável saldo é menor que 100 e envie um alerta de saldo baixo,"var ""baixo""=-11235",0.0187,25,4,0.000000,Sucesso
+100,crie uma condição que verifique se a variável numero é maior que 50 e divida numero por 2,var e=46355,0.0183,22,2,0.000000,Sucesso
