@@ -1,0 +1,1 @@
+O assistente por voz teve muita dificuldade de reconhecer a opção no menu audível, o que fez a participante repetir a ação várias vezes. Também apresentou dificuldade em entender o fluxo do assistente "Operações (F3)", pois parecia um pouco complexo. Fernanda continuava a usar a primeira opção (Criar Variável - F2) para realizar operações, sendo que era na tecla F3.

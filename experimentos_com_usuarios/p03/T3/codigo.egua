@@ -1,0 +1,5 @@
+var t = 25;
+se (t > 25){
+escreva ("calor"); }
+senão{
+escreva ("frio");}

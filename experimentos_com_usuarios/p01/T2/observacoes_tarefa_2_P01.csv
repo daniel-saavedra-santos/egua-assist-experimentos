@@ -1,0 +1,9 @@
+foi_falha_do_sistema,foi_falha_do_usuário,o_que_o_rosto_mostrou
+"A participante disse 'Ajuda 1' porém o sistema retornou 'a opção ajuda 100 não é válida'",,"frustração"
+"A participante disse 'Ajuda 1' porém o sistema retornou 'a opção ajuda 1.6 não é válida'",,"dúvida e confusão"
+"O sistema retornou 'não reconheci da um como uma opção válida'",,"frustração"
+"Novamente, a participante disse 'Ajuda 1' porém o sistema retornou 'a opção ajuda 100 não é válida'",,"frustração"
+"Mais uma vez, a participante disse 'Ajuda 1' porém o sistema retornou 'a opção ajuda 100 não é válida'",,"frustração"
+"A participante disse '1' porém o sistema retornou 'a opção 100 não é válida'",,"cansaço"
+"Novamente, a participante disse '1' porém o sistema retornou 'a opção 100 não é válida'",,"frustração"
+"O sistema ao invés de reconhecer 'matemática' reconhecia apenas 'temática' causando erro no reconhecimento da opção",,"frustração"

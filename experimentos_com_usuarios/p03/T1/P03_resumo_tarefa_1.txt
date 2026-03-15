@@ -1,0 +1,1 @@
+O usuário tem bom domínio de programação e de teclas de atalho. O sistema gerou código errado. O participante teve dificuldades de corrigir o código por conta da navegação problemática. A saída do console não lê o ; ( ) e outros caracteres especiais.

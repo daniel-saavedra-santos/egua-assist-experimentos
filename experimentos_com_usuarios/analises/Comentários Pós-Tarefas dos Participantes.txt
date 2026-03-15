@@ -1,0 +1,69 @@
+COMENTÁRIOS APÓS CADA TAREFA:
+
+1. P01:
+
+1.1 TAREFA 1:
+- Dificuldade em entender conceitos básicos de programação;
+- Dificuldade no uso do teclado - domínio;
+- Realizar reconhecimento de teclado com o usuário;
+- O ideal é o uso de teclado padrão (default).
+
+1.2 TAREFA 2:
+- No menu audível, onde pode-se pedir "Ajuda + número da opção", o assistente estava retornando outros valores de ajuda;
+- O assistente não estava entendendo muito bem a fala.
+
+1.3 TAREFA 3:
+- Complexidade da tarefa: fazer estruturas condicionais é mais complexo;
+- O assistente continuava a não entender muito bem a fala.
+
+2. P02:
+
+2.1 TAREFA 1:
+- Pegar o costume com as teclas de atalho, pois no início é bem mais difícil;
+- Para ela, que possui 30% da visão e faz uso de telas, é difícil associar o que se vê com o que se ouve.
+
+2.2 TAREFA 2:
+- Após o primeiro contato, com a prática, vai ficando fácil memorizar os atalhos;
+- A dificuldade é acentuada quando uma PcDV não tem acesso ao computador e seus recursos.
+
+2.3 TAREFA 3:
+- Dificuldade acentuada pela baixa habilidade em programação.
+
+3. P03:
+
+3.1 TAREFA 1:
+- Navegação pelo teclado não é muito clara, principalmente na área de código;
+- O assistente para criar variável criou incorretamente.
+
+3.2 TAREFA 2:
+- Mesmas observações da tarefa anterior.
+
+3.3 TAREFA 3:
+- O assistente não lê caracteres especiais na saída do console (principalmente ponto e vírgula ;)
+- O assistente não conseguiu criar corretamente uma estrutura condicional por voz.
+
+4. P04:
+
+4.1 TAREFA 1:
+- O assistente deve possibilitar a interação pelas duas vias (voz e teclado);
+- Deve ter um tutorial em PDF-A (PDF Acessível) explicando com mais detalhes o funcionamento e os comandos da ferramenta, para quem estiver iniciando.
+
+4.2 TAREFA 2:
+- Uma pessoa iniciante deve se apropriar mais das teclas de atalho, principalmente da ajuda (F1 e CTRL+H);
+
+4.3 TAREFA 3:
+- Ajuda com lista navegável por setas;
+- Utilizar uma única tecla de ajuda (F1, no caso);
+- Possibilitar o usuário copiar e colar a sugestão de código do console.
+
+5. P05:
+
+5.1 TAREFA 1:
+- Sobre a ajuda, seria interessante a possibilidade de repetição do comando inicial;
+- Complicado memorizar muitos atalhos.
+
+5.2 TAREFA 2:
+- Mesma observação da tarefa anterior.
+
+5.3 TAREFA 3:
+- Mesma observação da tarefa anterior.

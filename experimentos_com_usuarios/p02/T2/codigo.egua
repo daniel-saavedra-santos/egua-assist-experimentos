@@ -1,0 +1,2 @@
+var epsilon = 20;
+var zero = 1;

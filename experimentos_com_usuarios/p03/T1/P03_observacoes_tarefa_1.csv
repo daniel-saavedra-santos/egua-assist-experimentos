@@ -1,0 +1,6 @@
+foi_falha_do_sistema,foi_falha_do_usuario,o_que_o_rosto_mostrou
+,"*Não foi considerado falha do usuário: o participante pediu para usar um teclado com marcações no F e no J",
+"Erro ao gerar código: 429 Resource Exhausted. Please try again later. Please refer to https://cloud.google.com/",,"frustração"
+,"*Não foi considerado falha do usuário: Shift+TAB geralmente retorna ao item anterior. Neste caso, o atalho retorna ao primeiro item da lista de opções","estranheza"
+"O usuário consegue acessar a área de código mas ele não informa a localização do cursor",,"confuso"
+"Por conta da falta de informações sobre a localização do cursor, o usuário não conseguiu concluir a tarefa com êxito",,"frustração"

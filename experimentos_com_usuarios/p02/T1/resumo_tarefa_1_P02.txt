@@ -1,0 +1,1 @@
+A participante, por usar mais a visão, necessitou da LUPA do sistema para realizar as alterações no nível fino do código. Apresentou dúvidas quanto a depuração do código. Apresentou dúvidas quanto ao conceito da função "escreva();"

@@ -1,0 +1,1 @@
+A falta clara de navegação via teclado e a falta de clareza na leitura dos caracteres especiais na saída do console causaram frustração no usuário, mesmo tendo realizado a tarefa com êxito

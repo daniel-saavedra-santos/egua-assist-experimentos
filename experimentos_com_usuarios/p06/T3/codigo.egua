@@ -1,0 +1,6 @@
+var t = 32;
+se (t > 25) {
+    escreva("calor");
+} senão {
+    escreva("frio");
+}

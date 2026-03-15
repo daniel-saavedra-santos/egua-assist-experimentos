@@ -1,0 +1,2 @@
+Apesar do usuário ter dado o comando "texto" para criar uma variável que, a princípio, era numérica, o assistente criou corretamente var t = 32;
+O usuário relatou que, por exemplo, em leitores de tela como o NVDA/DOSVOX, ao teclar uma tecla, o assistente informa a localização do foco/cursor na tela (exemplo: letra c na linha dois após a palavra x, por exemplo). Outro ponto: deveriam haver opções mais claras para apagar e corrigir o código. O assistente para comandos personalizados funcionou muito bem, mas falta destaque para essa funcionalidade.

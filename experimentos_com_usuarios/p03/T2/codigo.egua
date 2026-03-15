@@ -1,0 +1,6 @@
+var y;
+var z;
+y = 4*5;
+z = 4-5;
+escreva (y);
+escreva (z);

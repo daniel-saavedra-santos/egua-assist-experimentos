@@ -1,0 +1,19 @@
+var te = 2;
+se (acho_esqueci_esquecer) {
+
+}
+se (t > 25) {
+
+}
+se (a_variavel_t > null) {
+    escreva("imprima a mensagem calor\n");
+} senão {
+    escreva("bom como");
+    escreva("aí tu vais falar vou outro bloco");
+}
+se (a_variante_t > 25) {
+    escreva("calou.");
+}
+se (ct > 25) {
+    escreva("calor que ódio");
+}

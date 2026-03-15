@@ -1,0 +1,1 @@
+O usuário tinha nenhum conhecimento de programação e apresentou uma alta carga mental durante a memorização de atalhos via teclado. O usuário solicitou várias vezes ajuda. Praticamente, não usou os atalhos do editor para programar. O sistema gerou os códigos de forma incorreta.

@@ -1,0 +1,4 @@
+var t = 32;
+se (vinte_e_cinco > trinta_e_dois) {
+    sim_vinte_e_cinco_é_maior_que_trinta_e_dois;
+}

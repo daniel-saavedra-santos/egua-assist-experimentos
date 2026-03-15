@@ -1,0 +1,1 @@
+O comando de interrupção CTRL+ESC não funcionava tão bem para condicional, pois não interrompia o fluxo do assistente. Alḿ disso, em alguns momentos, o sistema criava só a primeira parte da condicional, mesmo o usuário solicitando-a. Por fim, a falta de conhecimentos de programação e a falta de habilidades com computador comprometeu o entendimento e a realização do problema.

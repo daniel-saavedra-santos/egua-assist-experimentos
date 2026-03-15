@@ -1,0 +1,11 @@
+A participante apresentou, durante o experimento, uma sugestão de solução do problema que estava correta:
+
+var t = 32;
+se(t >25) {
+    escreva("Calor");
+}
+se(t<=25){
+    escreva("Frio");
+}
+
+A participante estava tentando criar estruturas condicionais pelo primeiro comando. Apresentou muita dificuldade no entendimento de estruturas condicionais.

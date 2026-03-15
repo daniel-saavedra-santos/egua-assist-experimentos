@@ -1,0 +1,13 @@
+1. Os participantes não usaram o microfone para "criação de código através de comandos personalizados".
+    -> Quem não sabe o que fazer ou por onde começar: vai até aos assistentes;
+    -> Quem já sabe o que quer: usa o microfone para entrada de prompts livres
+2. Para quem já é usuário avançado, o assistente pode não ser tão interessante, mas para quem acabou de ingressar no mundo da computação sim.
+3. Problemas de navegação do cursor do teclado
+4. Abordagem híbrida (NVDA + IDÉgua)
+5. O uso frequente do primeiro assistente (Criar Variável - F2)
+6. Melhorar o zoom da ferramenta (pessoas com baixa visão)
+7. Apresentar as listas de atalhos através de navegação por setas
+8. Os conceitos de programação para usuários iniciantes precisam estar mais consolidados
+9. Uma ótima porta de entrada para quem quer programar
+10. Sistema voltado para cegos, videntes e deficientes físicos (com limitações nos membros superiores - voz)
+11. A voz ajuda a entender a estrutura dos blocos de função do código, mas elimina a necessidade do usuário de entender a sintaxe do código, o que, em um futuro, pode se tornar problemático.

@@ -1,0 +1,1 @@
+Neste momento, o fator que dificultou foi a natureza da tarefa condicional, que é mais complexa. Além disso, o próprio assistente pode confundir com os ciclos de várias perguntas, o que pode requerer treino por parte do participante.
