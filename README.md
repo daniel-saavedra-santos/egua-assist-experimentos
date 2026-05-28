@@ -1,5 +1,5 @@
-# Estudo Empírico com o Égua Assist
-Este repositório contém os dados e scripts relativos à análise de dados dos estudo empírico conduzido com usuários DV (Deficientes Visuais) durante o uso do Égua Assist para fins de validação da usabilidade do sistema.
+# Estudo Empírico com o (Ferramenta Anônima)
+Este repositório contém os dados e scripts relativos à análise de dados dos estudo empírico conduzido com usuários DV (Deficientes Visuais) durante o uso do (Ferramenta Anônima) para fins de validação da usabilidade do sistema.
 
 # Arquivos
 - Questionários de coleta;
